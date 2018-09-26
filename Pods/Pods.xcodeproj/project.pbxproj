@@ -1,0 +1,1988 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00765725FC1A3DAA2AF9D291BEDF2AFB /* GHComment.h in Headers */ = {isa = PBXBuildFile; fileRef = C0EEA56EE3711FCC8E055FD700F53E4A /* GHComment.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		02F9B35A3C0F8BFDD9AD5C8DECD87CED /* GHScenarioDefinition_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 640117B0D190EC0CE3AE7A8AE5BF5187 /* GHScenarioDefinition_Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		030164C5BC2FD776517069ACBAC88BE9 /* GHGherkinLanguageConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F9CB6EAF3B9DDCF1D7CD8C1D275401E /* GHGherkinLanguageConstants.m */; };
+		03C912092850D845C4CA48283DBD4D68 /* XCUIElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69866CCEFFE6A0A2403B3E172F75DCA /* XCUIElement.swift */; };
+		0556B1F1EA55DAEAC3379BA1F226F25D /* KeyboardLocator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C6D3FD99D9DAFB9D79203D3E04054A /* KeyboardLocator.swift */; };
+		05B14A69F04CA33B7CC2328578CBF8E3 /* CCIFeature.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FC2161D5CA2149E7001D8C2A34C1D02 /* CCIFeature.m */; };
+		07F56266B4D1A320ED1E5CDA88CD6A96 /* GHTag.h in Headers */ = {isa = PBXBuildFile; fileRef = FFEBDE39DB2A48358A33D5AC32DD9B1F /* GHTag.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		08D374636E3812774833BB673A2E7E91 /* SystemAlertAllow.json in Resources */ = {isa = PBXBuildFile; fileRef = 744AE55852F119A7878F0E8EA30C325E /* SystemAlertAllow.json */; };
+		08F49B9E8918CB28E397A4D72D55014A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80C82283F763D9ABC7DD3BB91787CA8D /* XCTest.framework */; };
+		0ACFE9FFD55E687B101865B77DDA5AFC /* NSObject+Dictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F15DE77BB3B198B094BEDFC7FA06B9F /* NSObject+Dictionary.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0B528DE4447813B63F97B3AC1C7E7EF3 /* XCUIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B8F93BE3D2D038D5D776C9D2578E01 /* XCUIApplication.swift */; };
+		0ED3A43D8727BE9A50FB28EAADC23E13 /* GHGherkinDialect.m in Sources */ = {isa = PBXBuildFile; fileRef = 464D379AA064D4F2A3459344706A944C /* GHGherkinDialect.m */; };
+		0F403DB8E1776C29261EA7844434F27C /* GHAstNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 0462843788FBFAB96CF4E26B3BC2F620 /* GHAstNode.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0FCAB8973D3650880AFB250E78B50CE1 /* CCIStepDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = E627D824779B07C5040C70B10AAE096E /* CCIStepDefinition.m */; };
+		0FEC0AD6B640CB8EC23EEACF34053C1E /* GHParser+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = F890F93D3CB2F6215324C8A58E33942A /* GHParser+Extensions.m */; };
+		14DEAF03175A8C55BFC909F4C1801EF9 /* CCIStep.h in Headers */ = {isa = PBXBuildFile; fileRef = D9B3B3AC6EB36DBF1336E2F5DA9EF5FA /* CCIStep.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		166642678DB84D81DC5B8EE1C9D087F5 /* SoftwareKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059CF1A196595CBB6D92A1EC26BA0813 /* SoftwareKeyboard.swift */; };
+		17B2F66794549EA5F88F8AF93FC3FAD8 /* GHComment.m in Sources */ = {isa = PBXBuildFile; fileRef = 9519011246B7D2B1B9D857DE96FB3E53 /* GHComment.m */; };
+		1A568D6CECD35803569032D4484C44B2 /* GHGherkinDialectProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A0DF19626DB7554CB42C16DC4D2D6C0 /* GHGherkinDialectProvider.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1B6B91EE4BBDEDD602A8B6E68FB4A376 /* CCILocation.h in Headers */ = {isa = PBXBuildFile; fileRef = F9207709F023A8C445677FD0E781F0FD /* CCILocation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C020DECEC209AB9BC2E0D6B3070BAFD /* GHScenarioDefinition.h in Headers */ = {isa = PBXBuildFile; fileRef = 838A6E3CC2899913EF87AE174C06AA80 /* GHScenarioDefinition.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1D43F7CC1D96FC85F8107AF2F08A81E4 /* CCILoggingManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A76442E9119939A68C5BA8523FE412D /* CCILoggingManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2193444227A0D1DD4CF8FC5F42E4D982 /* GHParserException.h in Headers */ = {isa = PBXBuildFile; fileRef = D8AE9BEB250498CBBE3FB2157FC03FFC /* GHParserException.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		21DEA2C32AB364A1EB24C5097A4F6873 /* LaunchArgumentProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FFF2E0F3937904682B209B3B3D56EE7 /* LaunchArgumentProtocols.swift */; };
+		2216E625363DA44AD0398F7905B17EB6 /* HealthAuthorizationDontAllowAlert.json in Resources */ = {isa = PBXBuildFile; fileRef = 2D199F9853F3B5BECACF17FA7CD18719 /* HealthAuthorizationDontAllowAlert.json */; };
+		22E9CFCCD6FE94A8F717A27978B9CDB9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDD0F5DAA0AC84C5E3ADE087C20B50BA /* Foundation.framework */; };
+		242E05C725A85287849A84D8BD293A85 /* CCIStepsManager.h in Headers */ = {isa = PBXBuildFile; fileRef = BC63D9DAF7B57BF4746F042A2FEAAA38 /* CCIStepsManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		25BF76F86631B6A1FE6325F49BF3CB48 /* GHDataTable.h in Headers */ = {isa = PBXBuildFile; fileRef = A2BF54CFDF03E386D4E65638949F6E25 /* GHDataTable.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		25DB4E1E353200CBF76C39CA0898A623 /* GHGherkinLanguageSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = 332598A19CE0FD90685496091CA3D243 /* GHGherkinLanguageSetting.m */; };
+		27CB724262DDB39A8161563F8EA3F172 /* GHHasTagsProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BA93E3CFF2AC1F41F000DD03AE17975 /* GHHasTagsProtocol.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2934EBDEC679D6380CE7745A874CD138 /* SiriAlert.json in Resources */ = {isa = PBXBuildFile; fileRef = C38429D6503D98C26582CD34646F7FC7 /* SiriAlert.json */; };
+		2A5190C7728A3E4179611873CD8CBE9D /* SystemLaunchArguments.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF85EEDF1EB5B214ACE974035E423AC0 /* SystemLaunchArguments.swift */; };
+		2A565D3E80B26F63885D6F8A64F4CA90 /* CCIStepDefinition.h in Headers */ = {isa = PBXBuildFile; fileRef = E291849199084D2C3654DC7751C05FD0 /* CCIStepDefinition.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2B4068219FA5C21EE7941368F5702EF7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDD0F5DAA0AC84C5E3ADE087C20B50BA /* Foundation.framework */; };
+		2B6BA769359517E89964E8DB6C15BC92 /* GHScenarioOutline.m in Sources */ = {isa = PBXBuildFile; fileRef = 11C35362ECF456681B28A70CFCBF6E33 /* GHScenarioOutline.m */; };
+		2B7AD418F2EF5145A0F64EDE5B2EB9B0 /* CCIHock.h in Headers */ = {isa = PBXBuildFile; fileRef = F8FBA0C40936B2BBE49930B67FB4CCA9 /* CCIHock.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2CCB7656DBF3DDA8673C5B06572C341E /* CCILoggingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 99580A2F56A0FBB16D4E6F496E1D5631 /* CCILoggingManager.m */; };
+		2E037016AC8E9073D61F6603B4F4BF8B /* XCUIElementQuery+Locator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D06B01F3F4279C8DD56E5E59EBA595 /* XCUIElementQuery+Locator.swift */; };
+		2E91492868B70EF9A499E1C322F5E01B /* XCUIElementTypeQueryProvider+Any.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22C98C4B6C16A7BF9EDF782A47E4B6C /* XCUIElementTypeQueryProvider+Any.swift */; };
+		3037FA75DCAC895EA8BF0CA75AD679F2 /* MediaLibraryAlert.json in Resources */ = {isa = PBXBuildFile; fileRef = 565945478A471E14F9F9157D30043DC1 /* MediaLibraryAlert.json */; };
+		33156E0C04FBD2B95AAA51123756AAD8 /* LaunchOptionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7BD077D5219DCF73DF8E0D1378637A /* LaunchOptionProtocol.swift */; };
+		33416F2DEBAE3E52DE019F669028B821 /* GHGherkinLineSpan.m in Sources */ = {isa = PBXBuildFile; fileRef = 12A7623BA1EC4CB99189F699EAE967B2 /* GHGherkinLineSpan.m */; };
+		3623D1F78B778334E02C25A5BEA46488 /* HealthAlertAllow.json in Resources */ = {isa = PBXBuildFile; fileRef = 10348EC732B58C61E47EFBF34B92B9B3 /* HealthAlertAllow.json */; };
+		384145E2FBA3EFA3E81E5CC7105D1F86 /* NSArray+Hashes.m in Sources */ = {isa = PBXBuildFile; fileRef = 918BA5C29A824A35017D6A2D20F6F5AA /* NSArray+Hashes.m */; };
+		3980F141AD45C391D2F28734A0A6D6FA /* LaunchEnvironmentValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF8288C2EDC7D9F258F872768AB18F6 /* LaunchEnvironmentValue.swift */; };
+		39C43F0713C10092870E28A45AAC572E /* GHScenario.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A25FD65FFCE3BBC53F745638D274133 /* GHScenario.m */; };
+		39F10B80F08E95EB5C018ECECB61DC02 /* GHExamples.m in Sources */ = {isa = PBXBuildFile; fileRef = BB14C929927DA38EA64E3C2B5F75CB73 /* GHExamples.m */; };
+		3AA56368B911E6C48621601CDCC41BE6 /* ServiceRequestAlerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1385200FAF52AEAD5DE8DCAE6635A5 /* ServiceRequestAlerts.swift */; };
+		3B96A1F6BDD5963CC29408985D01F1FA /* Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC5942881F45378DA02D3E8E82CE038 /* Dictionary.swift */; };
+		3BE7044745BBE2E6FB4B8146CDB4E843 /* GHNode.m in Sources */ = {isa = PBXBuildFile; fileRef = C23CA6D1580119133E971999E79079C0 /* GHNode.m */; };
+		3EFF1EB46E9FCBFE65A26D3A0C0C96BB /* GHGherkinLanguageConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 7566E47CC7131264761B4054EFEDDB1A /* GHGherkinLanguageConstants.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		411DEA49C6963285F84D423AA4E41D55 /* CCIBlockDefinitions.h in Headers */ = {isa = PBXBuildFile; fileRef = DD6CE33C3401CDB3DE2889DD7EB87837 /* CCIBlockDefinitions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		412E81E2F68F3284BABBD9A856EC3007 /* NSString+Formatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A7FECCFF5602BF5C1A246C8E6A2A13 /* NSString+Formatter.m */; };
+		42A18808B310BEB20B4646D3FED0D438 /* GHGherkinLine.h in Headers */ = {isa = PBXBuildFile; fileRef = F56917770E7FA8644A071ABC43A80EB0 /* GHGherkinLine.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		438011B082388AEB6C989FF4E913295C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDD0F5DAA0AC84C5E3ADE087C20B50BA /* Foundation.framework */; };
+		4407DB2436072E9358CB20C87698BABD /* GHExamples.h in Headers */ = {isa = PBXBuildFile; fileRef = CABEACE4ACC789CD51CA6AEDCDCBC1BA /* GHExamples.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		47DBDF06BC472317FE694AC6C76A83A5 /* LocationAlertDeny.json in Resources */ = {isa = PBXBuildFile; fileRef = 479B2E37ABBD3CCDDB66B29BC5338ABC /* LocationAlertDeny.json */; };
+		47E9E07B0B86D596AAB4B6F04F5F6BB6 /* CCILocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BBF4120D3F2785338616DFC194CEE31 /* CCILocation.m */; };
+		47F120267BD3D086D42C6384932D82FA /* GHTableRow.h in Headers */ = {isa = PBXBuildFile; fileRef = F3586B0453E5E0F5CB208507CF79797E /* GHTableRow.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		49055E5C321B3BD38D1B6E8755965186 /* HealthPermissionPage.json in Resources */ = {isa = PBXBuildFile; fileRef = DA1688A56A91535A669D3D4BB7D5D4E1 /* HealthPermissionPage.json */; };
+		4921862C00BAA17543FCD468FBA73211 /* HealthAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3C26E828A666E11A4367E21AAC057E /* HealthAlert.swift */; };
+		4AED5DB91FEB244F5B7B08A21F83E239 /* CCIArgument.m in Sources */ = {isa = PBXBuildFile; fileRef = B04085DBD1C7BF1A9BA4712159B62B87 /* CCIArgument.m */; };
+		4D17E67C0B7F487F4D87EA8979E97844 /* GHDocString.m in Sources */ = {isa = PBXBuildFile; fileRef = A370F37CF43A4C3F22140B2A4421C9DC /* GHDocString.m */; };
+		4D318EC16E7CF2BDFC647B93406DA220 /* CCIFeaturesManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CC644356EC5AAF8D7D8BFE5E6DFC5A2 /* CCIFeaturesManager.m */; };
+		4D4DCC8C927C8935D1F070F2D30A55F3 /* MicrophoneAlert.json in Resources */ = {isa = PBXBuildFile; fileRef = 07C8CE07E41F97252F874C76806B68FA /* MicrophoneAlert.json */; };
+		4F6AED00C702A375AF06CC451316BCC0 /* GHTokenScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B5849069807D5552DE9249C118A165B /* GHTokenScanner.m */; };
+		4FCF471EDDA34DD54DA0F3842CF49C89 /* GHGherkinDialectProviderProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = DED963FDE6C61468699067A7ECC0716C /* GHGherkinDialectProviderProtocol.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4FFFB089D31BEB97229E87205424557E /* HealthAlerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7EE25B0BD06BB4D9A75E1B4D9FD476 /* HealthAlerts.swift */; };
+		50B005C06620EDE2B7C5FF3D4B02BB39 /* Cucumberish.h in Headers */ = {isa = PBXBuildFile; fileRef = 51D30A6C8C32D8F79D768D65C9CDD3EE /* Cucumberish.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		511DF7E00A792C1FE09BCD83A3964165 /* HealthPermissionPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3076D9A25CAB2F4E5D40536A43C5FD5 /* HealthPermissionPage.swift */; };
+		51CA036CD47623017D88A7C2310026FE /* CCIScenarioDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 901109EBAD365A1E75415D4104855A61 /* CCIScenarioDefinition.m */; };
+		5271AC5A6135B93FCDFF7AD7374781D5 /* Locator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08ED906E70E491E1E811627227ADF1D /* Locator.swift */; };
+		535E08CA80535D8BB5916B73F253B005 /* Pods-UITestingTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0042E955F55EF21F2FF011FCC92FC5B8 /* Pods-UITestingTests-dummy.m */; };
+		53E18AA935F29E65EEB1FCEED3035F20 /* GHStep.h in Headers */ = {isa = PBXBuildFile; fileRef = 521D2352C763344A3130F1F20D50C27C /* GHStep.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		53F99E7CDAE53030CCC093C76584A945 /* Cucumberish.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF7CEA4E855D72F37EEE2BCB9D09000 /* Cucumberish.m */; };
+		5457AE40BD8B5084DDCE3C71E10A47A1 /* CCIFeaturesManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 082C1FB902AE96A7FC2291051BD3F00C /* CCIFeaturesManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		558678815A0E0B00CF223F035E4DE6D3 /* GHToken.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD5B732E63A3365F86B9DBA0AC8CDE0 /* GHToken.m */; };
+		56E81EEF4B273A45CBF38AFE79C06EBA /* CCIJSONDumper.h in Headers */ = {isa = PBXBuildFile; fileRef = AC32044707BA609CE027C5419B391E97 /* CCIJSONDumper.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		59135C64AD6B82050CCA0D7E6F5CA784 /* CCIJSONDumper.m in Sources */ = {isa = PBXBuildFile; fileRef = C70DED0C832B4262736CD25B89750272 /* CCIJSONDumper.m */; };
+		59D2576C76C3F7665B9831E04268B858 /* NSString+Formatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B784F5EE7A8325121C92809BACE4D3E /* NSString+Formatter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5A0DAEEAA36A22BE0E597D058404EFD2 /* GHLocation.h in Headers */ = {isa = PBXBuildFile; fileRef = F2E3AB408A67A9369997B3CD64D1A2C1 /* GHLocation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5ABEB0DBA79C9EC8E90CFA1B43393C6F /* CCIAroundHock.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F4ECDFDAA96A03AC582F32047987D1F /* CCIAroundHock.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5CB1E97E87EA861F0CA46364FA1D82E0 /* CCIScenarioDefinition.h in Headers */ = {isa = PBXBuildFile; fileRef = FABDAFBAB3D95B9A60A67B327D7B5A95 /* CCIScenarioDefinition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E2E252F6F38B174C3B872BC74FCC45D /* Pods-UITestingTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A471F88BDF6648D41616ECA225C9B844 /* Pods-UITestingTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		61389DCCE4FF0E1A4597D67004065830 /* RemindersAlert.json in Resources */ = {isa = PBXBuildFile; fileRef = 33979A20F457F432E0EB88C13D625F74 /* RemindersAlert.json */; };
+		629F287DBDA7172525E9020E3C80026C /* GHFeature.m in Sources */ = {isa = PBXBuildFile; fileRef = 19A11B9CBF22C902DC22AE9FB4B1E679 /* GHFeature.m */; };
+		63102D5A263DE3EA156080B5469FF769 /* XCUIElementQuery+Predicate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE78C16A5F75FDAFE55897E3249768C9 /* XCUIElementQuery+Predicate.swift */; };
+		6360477D3C59ADCF1B2A84064F2D023A /* GHGherkinDialect.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ACE3A9FD7997D4FA664EA1BC7F08B2A /* GHGherkinDialect.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		661403E550005ADC149E0E53AE1366AD /* LocationUpgradeToAlwaysAlertAllow.json in Resources */ = {isa = PBXBuildFile; fileRef = 545DA27F3F5126EF6027633F513A0F08 /* LocationUpgradeToAlwaysAlertAllow.json */; };
+		6A8C7F8A1A7C9816DA1314C2C6A70E68 /* GHAstNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FA26076E3074700F66DCB1727C2C60D /* GHAstNode.m */; };
+		6B5C1816574A38D7415C6494808C406B /* AddressBookAlert.json in Resources */ = {isa = PBXBuildFile; fileRef = D32FB48A8B31448569C572E747CCB8B6 /* AddressBookAlert.json */; };
+		6BE8CEC5D60CD26E55321341679929EE /* LaunchArguments.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D5453C42EBD19053E37AEB23CD079C /* LaunchArguments.swift */; };
+		6DB24933513A325FCEDBB24815B15DC5 /* AutoMate-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF867A8D969EFA000B1DC81D6CEDD963 /* AutoMate-dummy.m */; };
+		6E7B7C7C7FC09FB7A4D430D68BF495D1 /* XCUIElementQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D07B05F8DDDD8CAA17FBA1F665EF10 /* XCUIElementQuery.swift */; };
+		6F172AE2BA037F0C909A9D947D59AAA8 /* NSArray+Hashes.h in Headers */ = {isa = PBXBuildFile; fileRef = 9790C0AC125581628F98832D0F53FDB9 /* NSArray+Hashes.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		71277A8928A18F5CBC6022DBB283CABB /* AutoMateLaunchEnvironmentKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B949AAE0A8A4BE01B7A2B946792BD4 /* AutoMateLaunchEnvironmentKeys.swift */; };
+		7290B7E09C8929CB6F709D80AE9BE5D7 /* LocationAlertOk.json in Resources */ = {isa = PBXBuildFile; fileRef = 750236F66B94DEE442CAFEF154FF1EB8 /* LocationAlertOk.json */; };
+		729F603D87BB3026515D59D65D23FA14 /* SystemAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B60EA1B3CAA05B058D3C76C07831C9 /* SystemAlert.swift */; };
+		7500F06AE66363DD3E5F287527084778 /* Pods-UITestingUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AF8F94131331AE077B14D71FADB7593 /* Pods-UITestingUITests-dummy.m */; };
+		76B877FC1F044141B7FABA70DFE75D60 /* LaunchArgumentValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1464AB4C1101A89312762975D9C7338F /* LaunchArgumentValue.swift */; };
+		77457B31528EEB68427B9BF297C3517E /* GHBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F10A2F0AECB8953216AA5A2C52C45DB /* GHBackground.m */; };
+		77FDBFDCEFB9A449C43C3A40EF5271CA /* GHParser+Extensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A05F9E438A5F9625220EF94907A0B17 /* GHParser+Extensions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		78B631335B50BE13AC9A854D8A77D1E0 /* XCTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59997618DCCC0BD050620BA6D6FF3521 /* XCTestCase.swift */; };
+		7CDB46C83E2C4C9E636D9612A969B68D /* MotionAlert.json in Resources */ = {isa = PBXBuildFile; fileRef = 63CD7FD003483372197CCE2ABA62CD20 /* MotionAlert.json */; };
+		81C9E7412AA95BE1FE67EAE769E75308 /* GHStep.m in Sources */ = {isa = PBXBuildFile; fileRef = 1509BA3817292971BA82351913E6B201 /* GHStep.m */; };
+		820298F48AC7B1F67D9454AC5400ABF9 /* LocationAlwaysAlertAllowWhenInUseOnly.json in Resources */ = {isa = PBXBuildFile; fileRef = 4EE77A0216DDB5DECBCEC5BD27507FC2 /* LocationAlwaysAlertAllowWhenInUseOnly.json */; };
+		829DD9A02FA14A1A25C7D40DBE81F271 /* HealthAlertTurnOnAll.json in Resources */ = {isa = PBXBuildFile; fileRef = 9BE600B5762A0CD079348584865D5696 /* HealthAlertTurnOnAll.json */; };
+		82CB0ADEA2C38A3C190F7F2F06215216 /* Pods-UITestingUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E9FAFC1B832BED52A60689FBE0512B8 /* Pods-UITestingUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8338D48BF46ACB92F3B9EF220F53D570 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDD0F5DAA0AC84C5E3ADE087C20B50BA /* Foundation.framework */; };
+		8672E1FB3F60103A0B00C0BB26A33708 /* TestLauncher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4921237B13E3EB0898B4AAC6D46B2EC7 /* TestLauncher.swift */; };
+		8675C94B2A6FD104180C642A55DEE1F2 /* CCIExample.h in Headers */ = {isa = PBXBuildFile; fileRef = EE9999CF1BB0B09FC326124895EF2EB2 /* CCIExample.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8690F31411E5102DA405087486DCE0B1 /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA68BE72D8E32C4613A7EE099A486ED7 /* Array.swift */; };
+		89336A52BBA47EF814EEE974A534AA3D /* GHScenario.h in Headers */ = {isa = PBXBuildFile; fileRef = A12EFF019B41007540346BA6514AC864 /* GHScenario.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		89C2CD09B10F15C7BA422BB250F88288 /* PhotosAddAlert.json in Resources */ = {isa = PBXBuildFile; fileRef = 26BE01DA74C92D33D00D2C87CB45F3E5 /* PhotosAddAlert.json */; };
+		8D73726F1BAFF539EB5ECA3D54CACCF4 /* GHTokenMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = E01E78F5DE53B885B976717FA8F98595 /* GHTokenMatcher.m */; };
+		91695834575E2AB820DE34B660735A90 /* GHHasDescriptionProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 14B9CE2F68FDD5DB15F158BD97228503 /* GHHasDescriptionProtocol.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9185478B26DFC74125F60A82C215B55E /* CCIStepsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A5CF65C9F0D8610EDCDCAB6E23D882 /* CCIStepsManager.m */; };
+		92B53BAE0E17B5C3B1198D3A64F1C5D5 /* CallsAlert.json in Resources */ = {isa = PBXBuildFile; fileRef = D62A658D35F9CFE742451E91C076586F /* CallsAlert.json */; };
+		92C68F4BAC6B6F04F52923B4420D3EEA /* Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB8E62A278C5B15AE773B66D890EA64 /* Bundle.swift */; };
+		940C7B6120F93E4770540C1F3D3779A1 /* Pods-UITesting-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E23C25ACD54950D6876EA04FC944C97 /* Pods-UITesting-dummy.m */; };
+		95994FE18AE27C3F5D702A4044E40A00 /* XCTestCase+Identifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4993A258545788E0D61B8C67706B12A9 /* XCTestCase+Identifiable.swift */; };
+		96F21A7ED33C7F68A53E303922B7034C /* CCIFeature.h in Headers */ = {isa = PBXBuildFile; fileRef = 80AE33F6156D73DBB9088A65C26228F1 /* CCIFeature.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97B2597CA2F22D090021E9E2BAEC373A /* HealthAlertOk.json in Resources */ = {isa = PBXBuildFile; fileRef = 32B99A312FF7D7A6FD01DF0405B6765E /* HealthAlertOk.json */; };
+		982B98895A1F9040F5C6F0F85FBDDA69 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDD0F5DAA0AC84C5E3ADE087C20B50BA /* Foundation.framework */; };
+		99ECA1F825F4A039D1A5D7C14F4F301E /* LocationWhenInUseAlert.json in Resources */ = {isa = PBXBuildFile; fileRef = AB115BAD242736D157187140A567C58D /* LocationWhenInUseAlert.json */; };
+		9A773350D6B7FDDAD34C2523EA1983B4 /* GHBackground.h in Headers */ = {isa = PBXBuildFile; fileRef = 998CE8C136CBF87561F0FDA758A85405 /* GHBackground.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9B928A6EC0B3885795CB8A996B7DBA21 /* AutoMateLaunchEnvironments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561A63D4009B2CC93124787715838508 /* AutoMateLaunchEnvironments.swift */; };
+		9D8433877EEF871BDD4C52D2FED841C3 /* GHNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 5323B59450C4329F0B46CF5C4ACFB5AB /* GHNode.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9DD844F56715A070504308C573650332 /* CCIHock.m in Sources */ = {isa = PBXBuildFile; fileRef = 0608368D319E596CB22C075D155A19A2 /* CCIHock.m */; };
+		9E0B64984AD97AB40BF03A37983EC35C /* GHGherkinLanguageSetting.h in Headers */ = {isa = PBXBuildFile; fileRef = EA0F31DE0D850754D2A991DB6A11FF88 /* GHGherkinLanguageSetting.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9E2CA9DF6AC160D8844D6FEB674A7F1E /* CalendarAlert.json in Resources */ = {isa = PBXBuildFile; fileRef = 76DE05E6961E593745CABE61060D9B88 /* CalendarAlert.json */; };
+		9F60A35418CFEEF45F7DE82BEDE346DF /* HealthAlertTurnOffAll.json in Resources */ = {isa = PBXBuildFile; fileRef = 29A1FA3C4E4A3A316060CF049ADED267 /* HealthAlertTurnOffAll.json */; };
+		A1934C868A65B9E5C6C4F8FF55BD139B /* PushedPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85993056904C0E1F48B833E3C992C9FB /* PushedPage.swift */; };
+		A4C1986F220525D7D3C1CD9BEBCF5320 /* gherkin-languages.json in Resources */ = {isa = PBXBuildFile; fileRef = 4AA13348468A36C4564A02073765E48E /* gherkin-languages.json */; };
+		A5DB00233E2F6344D95AA710210F9855 /* GHParser.h in Headers */ = {isa = PBXBuildFile; fileRef = B1E35EF79B6EB09AFAE76604F2DCC5D9 /* GHParser.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A7B911F6349DB741CFBD39720FE258BB /* GHAstBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 51AC05E179EC4029A8F4DCC21F93A1C7 /* GHAstBuilder.m */; };
+		A81090E41D023A7B4C39C3851775C63C /* BluetoothPeripheralAlert.json in Resources */ = {isa = PBXBuildFile; fileRef = 3279A63C7EB93051A52BD8A982A79C7C /* BluetoothPeripheralAlert.json */; };
+		A871C9655C6B0DAF20B5C97A01705DB1 /* LocationUpgradeWhenInUseAlwaysAlert.json in Resources */ = {isa = PBXBuildFile; fileRef = 9D953297ACB8566A876A53CC43A2E441 /* LocationUpgradeWhenInUseAlwaysAlert.json */; };
+		A8916FB2DA8E005F877F7ABBCB9B543C /* LocationAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2158A0F26DA2833B24126980888C9DA5 /* LocationAlert.swift */; };
+		A898D7DEEB7194205F5CC98DEB56F157 /* NSString+Trim.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D946401CF54ACA9E03521FB6AAD2396 /* NSString+Trim.m */; };
+		A94E89AE43AEFC9D34970F48E267720A /* GHTag.m in Sources */ = {isa = PBXBuildFile; fileRef = FCB5CBAFE8507EA51997CB7671F582FE /* GHTag.m */; };
+		A9B82BE9934E812CD8A2470D0120E214 /* CCIArgument.h in Headers */ = {isa = PBXBuildFile; fileRef = F499B2C93F773F35029338B0C8F084E3 /* CCIArgument.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB65199D8BAD6028D836A43E432BF583 /* LocationAlertCancel.json in Resources */ = {isa = PBXBuildFile; fileRef = 059E4458A233A8507D2D46BBDE5F093F /* LocationAlertCancel.json */; };
+		ACF61460A500A7EBD83CBE5F0C4BA4A8 /* LocationAlwaysAlertAllow.json in Resources */ = {isa = PBXBuildFile; fileRef = C5036CC3A9CE36C03228C4EC3F330AF2 /* LocationAlwaysAlertAllow.json */; };
+		AE65E9439900F353395A432B7EA2FEE0 /* GHTableCell.h in Headers */ = {isa = PBXBuildFile; fileRef = F54153F1544BC569ECB7EDF1816E4C73 /* GHTableCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AF979D7CAB89E29B9FBE46DB1BBACBCC /* Cucumberish-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 64FDB7C1398F71536AD7FC0AE19975B4 /* Cucumberish-dummy.m */; };
+		AFA86DFAFB12AF0A44DFB4D3747434E2 /* Sequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41CF23DFE85C7509E46A7169C50B6B92 /* Sequence.swift */; };
+		B278C112EC39F9AEDEBD10053D6C9D2D /* CCIAroundHock.m in Sources */ = {isa = PBXBuildFile; fileRef = D63983E8522008F54AB53F973C86D916 /* CCIAroundHock.m */; };
+		B2CB37F07C576E33D0391483C5681C83 /* AutoMate-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 10AC0CECCA8524ABDA2FBC39BF2C683D /* AutoMate-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B39E271B43A1E341A1BB68A351AF14B2 /* GHHasLocationProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 90919003D74D325200C5313856087BCF /* GHHasLocationProtocol.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B3BA2BBEE613F19E3853283C32B2DF0E /* NSObject+Dictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = E4E83924D60171C1FC1E364CEF7E8D1E /* NSObject+Dictionary.m */; };
+		B50452D4024BDACFCEA07723094F9D39 /* CCIStep.m in Sources */ = {isa = PBXBuildFile; fileRef = AC352C09AEA64D1A7739445A62982266 /* CCIStep.m */; };
+		B64821AEA8B0889327D28F3898E91416 /* GHScenarioDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = FD424D3223E66331148E9654F2E9125A /* GHScenarioDefinition.m */; };
+		B684009BED94E45876B73CD59AC95BFE /* GHDocString.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BE116340548774737AC5D5ADC8D4CA5 /* GHDocString.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BA9EE70328F3D9C22FCD8B40D8E6364A /* HardwareKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3892FEF53FDC43B612090FC7C72AD79 /* HardwareKeyboard.swift */; };
+		BB30E842705973C1404AF8721678390F /* PhotosAlert.json in Resources */ = {isa = PBXBuildFile; fileRef = F072C863311B68A57E18FFF6DF5EB79C /* PhotosAlert.json */; };
+		BB6346706B07DB1368FEB5B9A319F48B /* GHHasStepsProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 031292E0067580998DE932E924FAFC8A /* GHHasStepsProtocol.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BCAB64CC95D70C3444CDF5B3B858ECDA /* GHParser.m in Sources */ = {isa = PBXBuildFile; fileRef = BACCC7FA36A6E92C33FDF0DEB5FF49A1 /* GHParser.m */; };
+		BE35B70D0279175CA39FBCAF838F225A /* LocationAlerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55762EF867D84E69A7AD01A75E1F5B1D /* LocationAlerts.swift */; };
+		BE5EA31B250EA9AA5CE5BE13101A478B /* SystemAlertDeny.json in Resources */ = {isa = PBXBuildFile; fileRef = 00A1416135E2E3DFAB9F92A042585A51 /* SystemAlertDeny.json */; };
+		BE99DDB8959688DB9695DCA7494A39E4 /* GHTokenMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 22E60DDB198740F25A31F9CD4080BA65 /* GHTokenMatcher.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BF7CBA7DD767A603FDC56A1672A1BC92 /* LocationAlwaysAlert.json in Resources */ = {isa = PBXBuildFile; fileRef = 0498672468CDBFB16D166347109178E6 /* LocationAlwaysAlert.json */; };
+		BFBD5522AD0D5DDA4B952867937D8B2E /* SystemCountry.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEFEFA1C324810E624AD237CAE56EACB /* SystemCountry.swift */; };
+		C313213BACCD80FEFE7DD07DB217F2D2 /* CCIExample.m in Sources */ = {isa = PBXBuildFile; fileRef = BDDD295B7255FBABA9D033D888340B79 /* CCIExample.m */; };
+		C5F677E305A51EAC2D11307419EFA594 /* GHDataTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E7411E54875957F22BE064CB7F32DC4 /* GHDataTable.m */; };
+		C72D49310B9B454D0A40969A3378E118 /* NSString+Trim.h in Headers */ = {isa = PBXBuildFile; fileRef = FB0B951AF22A535196CCAD1B71C80043 /* NSString+Trim.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C7ABF9D23EC379A577942B035F056949 /* GHStepArgument.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B62A8E637646A72DF847E913B0AE1B /* GHStepArgument.m */; };
+		C9F07D942847BAF21633F8B1D24DB010 /* GHAstBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = E4C8FA88DB013DB3F16A3A4D357BDBDE /* GHAstBuilder.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CA893D46DF745C32064E5C3ECF9CF378 /* GHToken.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E04E535B13851F8C14129B1AC7365CF /* GHToken.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CB1E778A18E18EF37E9D17C822795ADB /* GHStepArgument.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CCB9ADFA979B2F2DE06334C8E6F7DC0 /* GHStepArgument.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CB6FAEAA0B86AA33C238623362477D71 /* Pods-UITesting-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E06C396A9FCC1D466BB25E2289BBBEA0 /* Pods-UITesting-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC7AF8272E28BD7CAEAF80B769A8E42A /* CCIBackground.h in Headers */ = {isa = PBXBuildFile; fileRef = BE9EA93B60C88D0824C3013CDF6505AF /* CCIBackground.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD362B72952CBB7BF0167E4E3674D244 /* LocationAlertAllow.json in Resources */ = {isa = PBXBuildFile; fileRef = 33C9982C44EB400A1B9692FCFD93B9D1 /* LocationAlertAllow.json */; };
+		CF4A3FE71FECE4081CDAC3828620871D /* GHParserException.m in Sources */ = {isa = PBXBuildFile; fileRef = 07AF218D324CADE171DDC85A78184A53 /* GHParserException.m */; };
+		CF5701FBFA699200D21BC26F86C2AA15 /* GHTableRow.m in Sources */ = {isa = PBXBuildFile; fileRef = D1CA49BB3A0D8794FD8704CA09C8FE33 /* GHTableRow.m */; };
+		D5F510C1918F6DE0AEBA4F75C1D1C5C0 /* GHScenarioOutline.h in Headers */ = {isa = PBXBuildFile; fileRef = C9E9FC2534E1498537805B06A6119C4E /* GHScenarioOutline.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D953627E585AFC37FCFACA18F8D77EA2 /* GHGherkinLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 92DA78B2A146D604268A570F2F308F66 /* GHGherkinLine.m */; };
+		D9ADB6672B7AE099E9FAAC5A1DB2F4B1 /* ModalPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD888842DF09009A6F7CB147DA76CB4 /* ModalPage.swift */; };
+		D9C9F186902233F2E4B69363DBC0F0CD /* GHLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 83428CF668238ABAF176ABF258B1F83D /* GHLocation.m */; };
+		DACED772CF3FB7A98D4104D5861A0E8F /* XCUIElement+Swipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B85FCE6377BDF35106DF8943153E360 /* XCUIElement+Swipe.swift */; };
+		DC0D523C7FBC155BE18A946723866612 /* GHGherkinLineProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = B701076143B4EDB1B4CD2A8AAEB2CB5E /* GHGherkinLineProtocol.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DC9E50C2F960E315B6C5196FD930F1DE /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257E8D444F671F5A516364CF15937D10 /* String.swift */; };
+		DCF7D4CCBDD59823A44B262A41C7E9FB /* GHFeature.h in Headers */ = {isa = PBXBuildFile; fileRef = BFAA7096FEDDC70C869C3F7CD076CB94 /* GHFeature.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DD1FCEFD63835C2CCB324502120F0FF2 /* CoreGraphics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E03CA85574AB392FF30394F05F9E2D /* CoreGraphics.swift */; };
+		DE355B5901D743B1FB81FFDB0C9F25FE /* GHTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D041D21DC7A09DC985C51C3FDD7177F /* GHTableCell.m */; };
+		DE556688CB74CE24A4C2EE9077773778 /* SpeechRecognitionAlert.json in Resources */ = {isa = PBXBuildFile; fileRef = 90F76C97652987C6967E7974A8B3062C /* SpeechRecognitionAlert.json */; };
+		E24C2254637DDCFF60F5E8D87948C337 /* AppUITestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1FB32083CB1C02A22DE67ACEA1396EF /* AppUITestCase.swift */; };
+		E5FFC1E3DED9E093B42CA963C5B3ECD7 /* GHGherkinLineSpan.h in Headers */ = {isa = PBXBuildFile; fileRef = 41BFC9A1E329A66249EB862A0E684B37 /* GHGherkinLineSpan.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E685C576F1A060B334C1FB759675F084 /* Cucumberish-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 13790A0F5DACDCD793A6D3F04970C8FF /* Cucumberish-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E6A0EB5FEE5DCE5CF8A855B6C0754112 /* CCIBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5582FBE9F4D3CE6091E8CD14627A32 /* CCIBackground.m */; };
+		E9E09C09934CC0AE9E3CA4C4C6267B7C /* CameraAlert.json in Resources */ = {isa = PBXBuildFile; fileRef = F34268315EE57983B76E5E10F54BF0E9 /* CameraAlert.json */; };
+		EA50D4F48AB601157CD85FA165DBC0E6 /* GHTokenScanner.h in Headers */ = {isa = PBXBuildFile; fileRef = 81E9C5A2D3D1B7D6F0C6B8ADCAC56892 /* GHTokenScanner.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EED784B501333F7D2D0EC0D1F1B48839 /* HealthAlertDeny.json in Resources */ = {isa = PBXBuildFile; fileRef = A4B5E5F6FE0E0D6A60FB6379717B8658 /* HealthAlertDeny.json */; };
+		F304557BE053C3317FCD2710FDC6B4DA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80C82283F763D9ABC7DD3BB91787CA8D /* XCTest.framework */; };
+		F34A1FC85860DC99A84999BC1EC77323 /* LaunchOptionsSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC44C58E1FAA6999FA16AD853EBDBFEB /* LaunchOptionsSet.swift */; };
+		F4922FFD41C0E52EF355BD755573A37D /* GherkinLanguages.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2D65E7F48CB2204AC2A30AD2E26B7131 /* GherkinLanguages.bundle */; };
+		F4BF8D545489A283AFA1C6C40A36ECB0 /* BaseAppPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8FED158B8428E2A2FD8AB5F5F6561A /* BaseAppPage.swift */; };
+		F7DEBD0642A2C737489F4F1F25FD9201 /* LaunchEnvironmentProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241A75C287B78CFD04C1071BADACB34F /* LaunchEnvironmentProtocols.swift */; };
+		FA7D718E6E3768970BECEB328F17650C /* SystemLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE9A97644CB65DBA61195298AA78B39 /* SystemLanguage.swift */; };
+		FB65062F2177B3582311E4C7F084B9AA /* LaunchEnvironments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313BF8DCE77DDE68E017B484D99F987E /* LaunchEnvironments.swift */; };
+		FB9B7161FF91468B208B51056FF59184 /* WillowAlert.json in Resources */ = {isa = PBXBuildFile; fileRef = C49EDEA4DDC4BE974D10F92B667277A0 /* WillowAlert.json */; };
+		FE5CD4A4EC68D88F169DA871986E9587 /* GHGherkinDialectProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = B30365A4FBE2003E9B19A43CA2021847 /* GHGherkinDialectProvider.m */; };
+		FFBABBD3633F8BF1183557A3A5320234 /* GHHasRowsProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CFFA80343207A9BD7B892325C5346FD /* GHHasRowsProtocol.h */; settings = {ATTRIBUTES = (Project, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		05BD26E8EC9291BAE46B0AAE44F26580 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F9219DC3436F4A71BD490ADED213426;
+			remoteInfo = "Cucumberish-GherkinLanguages";
+		};
+		116DB31E4B32B51334DF0357270B5D83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C028BF95EF80ECE7B4FEF61B7D8D511;
+			remoteInfo = AutoMate;
+		};
+		488E5BA600EBDC03ED61696EB4730315 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68BBA27FABB4188F082A1A9FDD1A9B37;
+			remoteInfo = Cucumberish;
+		};
+		A90972C59C4911F1CBC31E9644896958 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 434CD6A0B0190BEEE2AF6BF1ABF476B9;
+			remoteInfo = "Pods-UITesting";
+		};
+		D1EC45526C0BF1F6E8517FEAEF22BD56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 434CD6A0B0190BEEE2AF6BF1ABF476B9;
+			remoteInfo = "Pods-UITesting";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0042E955F55EF21F2FF011FCC92FC5B8 /* Pods-UITestingTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UITestingTests-dummy.m"; sourceTree = "<group>"; };
+		00A1416135E2E3DFAB9F92A042585A51 /* SystemAlertDeny.json */ = {isa = PBXFileReference; includeInIndex = 1; name = SystemAlertDeny.json; path = AutoMate/Models/Messages/SystemAlertDeny.json; sourceTree = "<group>"; };
+		00C6D3FD99D9DAFB9D79203D3E04054A /* KeyboardLocator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyboardLocator.swift; path = AutoMate/KeyboardLocator.swift; sourceTree = "<group>"; };
+		031292E0067580998DE932E924FAFC8A /* GHHasStepsProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GHHasStepsProtocol.h; path = Cucumberish/Dependencies/Gherkin/GHHasStepsProtocol.h; sourceTree = "<group>"; };
+		0462843788FBFAB96CF4E26B3BC2F620 /* GHAstNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GHAstNode.h; path = Cucumberish/Dependencies/Gherkin/GHAstNode.h; sourceTree = "<group>"; };
+		0498672468CDBFB16D166347109178E6 /* LocationAlwaysAlert.json */ = {isa = PBXFileReference; includeInIndex = 1; name = LocationAlwaysAlert.json; path = AutoMate/Models/Messages/LocationAlwaysAlert.json; sourceTree = "<group>"; };
+		059CF1A196595CBB6D92A1EC26BA0813 /* SoftwareKeyboard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SoftwareKeyboard.swift; path = AutoMate/Models/SoftwareKeyboard.swift; sourceTree = "<group>"; };
+		059E4458A233A8507D2D46BBDE5F093F /* LocationAlertCancel.json */ = {isa = PBXFileReference; includeInIndex = 1; name = LocationAlertCancel.json; path = AutoMate/Models/Messages/LocationAlertCancel.json; sourceTree = "<group>"; };
+		0608368D319E596CB22C075D155A19A2 /* CCIHock.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CCIHock.m; path = Cucumberish/Core/Models/CCIHock.m; sourceTree = "<group>"; };
+		07AF218D324CADE171DDC85A78184A53 /* GHParserException.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GHParserException.m; path = Cucumberish/Dependencies/Gherkin/GHParserException.m; sourceTree = "<group>"; };
+		07C8CE07E41F97252F874C76806B68FA /* MicrophoneAlert.json */ = {isa = PBXFileReference; includeInIndex = 1; name = MicrophoneAlert.json; path = AutoMate/Models/Messages/MicrophoneAlert.json; sourceTree = "<group>"; };
+		07E5813E8C0EAE089BADF0C000B96915 /* Pods_UITestingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UITestingTests.framework; path = "Pods-UITestingTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		082C1FB902AE96A7FC2291051BD3F00C /* CCIFeaturesManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CCIFeaturesManager.h; path = Cucumberish/Core/Managers/CCIFeaturesManager.h; sourceTree = "<group>"; };
+		093B4E035F965B6239090FD270E3A5CE /* AutoMate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AutoMate.framework; path = AutoMate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		09D2B2FB46CE8057D58F7E8B5199E77D /* Cucumberish-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Cucumberish-prefix.pch"; sourceTree = "<group>"; };
+		0CC644356EC5AAF8D7D8BFE5E6DFC5A2 /* CCIFeaturesManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CCIFeaturesManager.m; path = Cucumberish/Core/Managers/CCIFeaturesManager.m; sourceTree = "<group>"; };
+		0CCB9ADFA979B2F2DE06334C8E6F7DC0 /* GHStepArgument.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GHStepArgument.h; path = Cucumberish/Dependencies/Gherkin/GHStepArgument.h; sourceTree = "<group>"; };
+		0D041D21DC7A09DC985C51C3FDD7177F /* GHTableCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GHTableCell.m; path = Cucumberish/Dependencies/Gherkin/GHTableCell.m; sourceTree = "<group>"; };
+		0E04E535B13851F8C14129B1AC7365CF /* GHToken.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GHToken.h; path = Cucumberish/Dependencies/Gherkin/GHToken.h; sourceTree = "<group>"; };
+		10348EC732B58C61E47EFBF34B92B9B3 /* HealthAlertAllow.json */ = {isa = PBXFileReference; includeInIndex = 1; name = HealthAlertAllow.json; path = AutoMate/Models/Messages/HealthAlertAllow.json; sourceTree = "<group>"; };
+		10AC0CECCA8524ABDA2FBC39BF2C683D /* AutoMate-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AutoMate-umbrella.h"; sourceTree = "<group>"; };
+		11C35362ECF456681B28A70CFCBF6E33 /* GHScenarioOutline.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GHScenarioOutline.m; path = Cucumberish/Dependencies/Gherkin/GHScenarioOutline.m; sourceTree = "<group>"; };
+		12A7623BA1EC4CB99189F699EAE967B2 /* GHGherkinLineSpan.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GHGherkinLineSpan.m; path = Cucumberish/Dependencies/Gherkin/GHGherkinLineSpan.m; sourceTree = "<group>"; };
+		13790A0F5DACDCD793A6D3F04970C8FF /* Cucumberish-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Cucumberish-umbrella.h"; sourceTree = "<group>"; };
+		1464AB4C1101A89312762975D9C7338F /* LaunchArgumentValue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LaunchArgumentValue.swift; path = AutoMate/LaunchArgumentValue.swift; sourceTree = "<group>"; };
+		14819D4445890B76C13B9C42FC3C592B /* Pods-UITesting.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UITesting.release.xcconfig"; sourceTree = "<group>"; };
+		14B9CE2F68FDD5DB15F158BD97228503 /* GHHasDescriptionProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GHHasDescriptionProtocol.h; path = Cucumberish/Dependencies/Gherkin/GHHasDescriptionProtocol.h; sourceTree = "<group>"; };
+		1509BA3817292971BA82351913E6B201 /* GHStep.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GHStep.m; path = Cucumberish/Dependencies/Gherkin/GHStep.m; sourceTree = "<group>"; };
+		15C9772EEA13466EE1E4774654FD6A6C /* Pods-UITesting-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UITesting-acknowledgements.markdown"; sourceTree = "<group>"; };
+		17D06B01F3F4279C8DD56E5E59EBA595 /* XCUIElementQuery+Locator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "XCUIElementQuery+Locator.swift"; path = "AutoMate/XCTest extensions/XCUIElementQuery+Locator.swift"; sourceTree = "<group>"; };
+		19A11B9CBF22C902DC22AE9FB4B1E679 /* GHFeature.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GHFeature.m; path = Cucumberish/Dependencies/Gherkin/GHFeature.m; sourceTree = "<group>"; };
+		1B7EE25B0BD06BB4D9A75E1B4D9FD476 /* HealthAlerts.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HealthAlerts.swift; path = AutoMate/Models/HealthAlerts.swift; sourceTree = "<group>"; };
+		1C50F41B9566D43FB801AC053FDF0D23 /* Pods-UITesting-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UITesting-resources.sh"; sourceTree = "<group>"; };
+		1C556E52133AEF75CF307F038ADE7174 /* Pods_UITestingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UITestingUITests.framework; path = "Pods-UITestingUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C76A5765B3689634366AD98292960D1 /* Cucumberish.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Cucumberish.xcconfig; sourceTree = "<group>"; };
+		1D946401CF54ACA9E03521FB6AAD2396 /* NSString+Trim.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+Trim.m"; path = "Cucumberish/Dependencies/Gherkin/NSString+Trim.m"; sourceTree = "<group>"; };
+		1E23C25ACD54950D6876EA04FC944C97 /* Pods-UITesting-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UITesting-dummy.m"; sourceTree = "<group>"; };
+		2158A0F26DA2833B24126980888C9DA5 /* LocationAlert.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LocationAlert.swift; path = AutoMate/LocationAlert.swift; sourceTree = "<group>"; };
+		22E60DDB198740F25A31F9CD4080BA65 /* GHTokenMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GHTokenMatcher.h; path = Cucumberish/Dependencies/Gherkin/GHTokenMatcher.h; sourceTree = "<group>"; };
+		241A75C287B78CFD04C1071BADACB34F /* LaunchEnvironmentProtocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LaunchEnvironmentProtocols.swift; path = AutoMate/LaunchEnvironmentProtocols.swift; sourceTree = "<group>"; };
+		24C06E3751510D50643C9ED95AE8AB4F /* Pods-UITestingUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UITestingUITests-resources.sh"; sourceTree = "<group>"; };
+		25406A1070D35F19D459E0D535D3D423 /* Pods-UITestingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UITestingUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		257E8D444F671F5A516364CF15937D10 /* String.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = String.swift; path = "AutoMate/Foundation extensions/String.swift"; sourceTree = "<group>"; };
+		26BE01DA74C92D33D00D2C87CB45F3E5 /* PhotosAddAlert.json */ = {isa = PBXFileReference; includeInIndex = 1; name = PhotosAddAlert.json; path = AutoMate/Models/Messages/PhotosAddAlert.json; sourceTree = "<group>"; };
+		29A1FA3C4E4A3A316060CF049ADED267 /* HealthAlertTurnOffAll.json */ = {isa = PBXFileReference; includeInIndex = 1; name = HealthAlertTurnOffAll.json; path = AutoMate/Models/Messages/HealthAlertTurnOffAll.json; sourceTree = "<group>"; };
+		2B85FCE6377BDF35106DF8943153E360 /* XCUIElement+Swipe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "XCUIElement+Swipe.swift"; path = "AutoMate/XCTest extensions/XCUIElement+Swipe.swift"; sourceTree = "<group>"; };
+		2C1385200FAF52AEAD5DE8DCAE6635A5 /* ServiceRequestAlerts.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServiceRequestAlerts.swift; path = AutoMate/Models/ServiceRequestAlerts.swift; sourceTree = "<group>"; };
+		2D199F9853F3B5BECACF17FA7CD18719 /* HealthAuthorizationDontAllowAlert.json */ = {isa = PBXFileReference; includeInIndex = 1; name = HealthAuthorizationDontAllowAlert.json; path = AutoMate/Models/Messages/HealthAuthorizationDontAllowAlert.json; sourceTree = "<group>"; };
+		2D65E7F48CB2204AC2A30AD2E26B7131 /* GherkinLanguages.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = GherkinLanguages.bundle; path = "Cucumberish-GherkinLanguages.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E9FAFC1B832BED52A60689FBE0512B8 /* Pods-UITestingUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UITestingUITests-umbrella.h"; sourceTree = "<group>"; };
+		2FFF2E0F3937904682B209B3B3D56EE7 /* LaunchArgumentProtocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LaunchArgumentProtocols.swift; path = AutoMate/LaunchArgumentProtocols.swift; sourceTree = "<group>"; };
+		313BF8DCE77DDE68E017B484D99F987E /* LaunchEnvironments.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LaunchEnvironments.swift; path = AutoMate/LaunchEnvironments.swift; sourceTree = "<group>"; };
+		31D07B05F8DDDD8CAA17FBA1F665EF10 /* XCUIElementQuery.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XCUIElementQuery.swift; path = "AutoMate/XCTest extensions/XCUIElementQuery.swift"; sourceTree = "<group>"; };
+		3279A63C7EB93051A52BD8A982A79C7C /* BluetoothPeripheralAlert.json */ = {isa = PBXFileReference; includeInIndex = 1; name = BluetoothPeripheralAlert.json; path = AutoMate/Models/Messages/BluetoothPeripheralAlert.json; sourceTree = "<group>"; };
+		32B99A312FF7D7A6FD01DF0405B6765E /* HealthAlertOk.json */ = {isa = PBXFileReference; includeInIndex = 1; name = HealthAlertOk.json; path = AutoMate/Models/Messages/HealthAlertOk.json; sourceTree = "<group>"; };
+		332598A19CE0FD90685496091CA3D243 /* GHGherkinLanguageSetting.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GHGherkinLanguageSetting.m; path = Cucumberish/Dependencies/Gherkin/GHGherkinLanguageSetting.m; sourceTree = "<group>"; };
+		33979A20F457F432E0EB88C13D625F74 /* RemindersAlert.json */ = {isa = PBXFileReference; includeInIndex = 1; name = RemindersAlert.json; path = AutoMate/Models/Messages/RemindersAlert.json; sourceTree = "<group>"; };
+		33C9982C44EB400A1B9692FCFD93B9D1 /* LocationAlertAllow.json */ = {isa = PBXFileReference; includeInIndex = 1; name = LocationAlertAllow.json; path = AutoMate/Models/Messages/LocationAlertAllow.json; sourceTree = "<group>"; };
+		358A5EA23783AC1C2EE947F59A32C821 /* Pods_UITesting.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UITesting.framework; path = "Pods-UITesting.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		36B949AAE0A8A4BE01B7A2B946792BD4 /* AutoMateLaunchEnvironmentKeys.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AutoMateLaunchEnvironmentKeys.swift; path = AutoMate/AutoMateLaunchEnvironmentKeys.swift; sourceTree = "<group>"; };
+		39B8F93BE3D2D038D5D776C9D2578E01 /* XCUIApplication.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XCUIApplication.swift; path = "AutoMate/XCTest extensions/XCUIApplication.swift"; sourceTree = "<group>"; };
+		3A0DF19626DB7554CB42C16DC4D2D6C0 /* GHGherkinDialectProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GHGherkinDialectProvider.h; path = Cucumberish/Dependencies/Gherkin/GHGherkinDialectProvider.h; sourceTree = "<group>"; };
+		3A76442E9119939A68C5BA8523FE412D /* CCILoggingManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CCILoggingManager.h; path = Cucumberish/Core/Managers/CCILoggingManager.h; sourceTree = "<group>"; };
+		3B784F5EE7A8325121C92809BACE4D3E /* NSString+Formatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+Formatter.h"; path = "Cucumberish/Utils/NSString+Formatter.h"; sourceTree = "<group>"; };
+		3BBF4120D3F2785338616DFC194CEE31 /* CCILocation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CCILocation.m; path = Cucumberish/Core/Models/CCILocation.m; sourceTree = "<group>"; };
+		3CC5942881F45378DA02D3E8E82CE038 /* Dictionary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Dictionary.swift; path = "AutoMate/Foundation extensions/Dictionary.swift"; sourceTree = "<group>"; };
+		3CF95D871106B49B87CE096C50DD0DA3 /* Pods-UITestingUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UITestingUITests-frameworks.sh"; sourceTree = "<group>"; };
+		40A45199D671CBDC021FC55652D9FCAF /* Pods-UITestingTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UITestingTests.modulemap"; sourceTree = "<group>"; };
+		41BFC9A1E329A66249EB862A0E684B37 /* GHGherkinLineSpan.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GHGherkinLineSpan.h; path = Cucumberish/Dependencies/Gherkin/GHGherkinLineSpan.h; sourceTree = "<group>"; };
+		41CF23DFE85C7509E46A7169C50B6B92 /* Sequence.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Sequence.swift; path = "AutoMate/Foundation extensions/Sequence.swift"; sourceTree = "<group>"; };
+		44B2CD79A372B997C9758012ACADE6D8 /* Pods-UITestingUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UITestingUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		464D379AA064D4F2A3459344706A944C /* GHGherkinDialect.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GHGherkinDialect.m; path = Cucumberish/Dependencies/Gherkin/GHGherkinDialect.m; sourceTree = "<group>"; };
+		4729898C9589B15D43D14CBA7E3712D0 /* AutoMate.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AutoMate.modulemap; sourceTree = "<group>"; };
+		479B2E37ABBD3CCDDB66B29BC5338ABC /* LocationAlertDeny.json */ = {isa = PBXFileReference; includeInIndex = 1; name = LocationAlertDeny.json; path = AutoMate/Models/Messages/LocationAlertDeny.json; sourceTree = "<group>"; };
+		4921237B13E3EB0898B4AAC6D46B2EC7 /* TestLauncher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TestLauncher.swift; path = AutoMate/TestLauncher.swift; sourceTree = "<group>"; };
+		4993A258545788E0D61B8C67706B12A9 /* XCTestCase+Identifiable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "XCTestCase+Identifiable.swift"; path = "AutoMate/XCTest extensions/XCTestCase+Identifiable.swift"; sourceTree = "<group>"; };
+		4A05F9E438A5F9625220EF94907A0B17 /* GHParser+Extensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GHParser+Extensions.h"; path = "Cucumberish/Dependencies/Gherkin/GHParser+Extensions.h"; sourceTree = "<group>"; };
+		4AA13348468A36C4564A02073765E48E /* gherkin-languages.json */ = {isa = PBXFileReference; includeInIndex = 1; name = "gherkin-languages.json"; path = "Cucumberish/Dependencies/Gherkin/gherkin-languages.json"; sourceTree = "<group>"; };
+		4B1E2D4752B2AC4C8EF549DAE366E5E0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D7103BA4B4BF31454DCF2C0C458B1B0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EE77A0216DDB5DECBCEC5BD27507FC2 /* LocationAlwaysAlertAllowWhenInUseOnly.json */ = {isa = PBXFileReference; includeInIndex = 1; name = LocationAlwaysAlertAllowWhenInUseOnly.json; path = AutoMate/Models/Messages/LocationAlwaysAlertAllowWhenInUseOnly.json; sourceTree = "<group>"; };
+		4F4ECDFDAA96A03AC582F32047987D1F /* CCIAroundHock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CCIAroundHock.h; path = Cucumberish/Core/Models/CCIAroundHock.h; sourceTree = "<group>"; };
+		4F9CB6EAF3B9DDCF1D7CD8C1D275401E /* GHGherkinLanguageConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GHGherkinLanguageConstants.m; path = Cucumberish/Dependencies/Gherkin/GHGherkinLanguageConstants.m; sourceTree = "<group>"; };
+		4FC2161D5CA2149E7001D8C2A34C1D02 /* CCIFeature.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CCIFeature.m; path = Cucumberish/Core/Models/CCIFeature.m; sourceTree = "<group>"; };
+		51AC05E179EC4029A8F4DCC21F93A1C7 /* GHAstBuilder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GHAstBuilder.m; path = Cucumberish/Dependencies/Gherkin/GHAstBuilder.m; sourceTree = "<group>"; };
+		51D30A6C8C32D8F79D768D65C9CDD3EE /* Cucumberish.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Cucumberish.h; path = Cucumberish/Cucumberish.h; sourceTree = "<group>"; };
+		521D2352C763344A3130F1F20D50C27C /* GHStep.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GHStep.h; path = Cucumberish/Dependencies/Gherkin/GHStep.h; sourceTree = "<group>"; };
+		5323B59450C4329F0B46CF5C4ACFB5AB /* GHNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GHNode.h; path = Cucumberish/Dependencies/Gherkin/GHNode.h; sourceTree = "<group>"; };
+		545DA27F3F5126EF6027633F513A0F08 /* LocationUpgradeToAlwaysAlertAllow.json */ = {isa = PBXFileReference; includeInIndex = 1; name = LocationUpgradeToAlwaysAlertAllow.json; path = AutoMate/Models/Messages/LocationUpgradeToAlwaysAlertAllow.json; sourceTree = "<group>"; };
+		55762EF867D84E69A7AD01A75E1F5B1D /* LocationAlerts.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LocationAlerts.swift; path = AutoMate/Models/LocationAlerts.swift; sourceTree = "<group>"; };
+		561A63D4009B2CC93124787715838508 /* AutoMateLaunchEnvironments.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AutoMateLaunchEnvironments.swift; path = AutoMate/AutoMateLaunchEnvironments.swift; sourceTree = "<group>"; };
+		565945478A471E14F9F9157D30043DC1 /* MediaLibraryAlert.json */ = {isa = PBXFileReference; includeInIndex = 1; name = MediaLibraryAlert.json; path = AutoMate/Models/Messages/MediaLibraryAlert.json; sourceTree = "<group>"; };
+		59997618DCCC0BD050620BA6D6FF3521 /* XCTestCase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XCTestCase.swift; path = "AutoMate/XCTest extensions/XCTestCase.swift"; sourceTree = "<group>"; };
+		5B5849069807D5552DE9249C118A165B /* GHTokenScanner.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GHTokenScanner.m; path = Cucumberish/Dependencies/Gherkin/GHTokenScanner.m; sourceTree = "<group>"; };
+		5BA93E3CFF2AC1F41F000DD03AE17975 /* GHHasTagsProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GHHasTagsProtocol.h; path = Cucumberish/Dependencies/Gherkin/GHHasTagsProtocol.h; sourceTree = "<group>"; };
+		5E7BD077D5219DCF73DF8E0D1378637A /* LaunchOptionProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LaunchOptionProtocol.swift; path = AutoMate/LaunchOptionProtocol.swift; sourceTree = "<group>"; };
+		5F15DE77BB3B198B094BEDFC7FA06B9F /* NSObject+Dictionary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+Dictionary.h"; path = "Cucumberish/Utils/NSObject+Dictionary.h"; sourceTree = "<group>"; };
+		63A5CF65C9F0D8610EDCDCAB6E23D882 /* CCIStepsManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CCIStepsManager.m; path = Cucumberish/Core/Managers/CCIStepsManager.m; sourceTree = "<group>"; };
+		63A7FECCFF5602BF5C1A246C8E6A2A13 /* NSString+Formatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+Formatter.m"; path = "Cucumberish/Utils/NSString+Formatter.m"; sourceTree = "<group>"; };
+		63CD7FD003483372197CCE2ABA62CD20 /* MotionAlert.json */ = {isa = PBXFileReference; includeInIndex = 1; name = MotionAlert.json; path = AutoMate/Models/Messages/MotionAlert.json; sourceTree = "<group>"; };
+		63EF2B8BC8B0230A4E7C44E02D45160F /* Pods-UITesting-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UITesting-frameworks.sh"; sourceTree = "<group>"; };
+		640117B0D190EC0CE3AE7A8AE5BF5187 /* GHScenarioDefinition_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GHScenarioDefinition_Private.h; path = Cucumberish/Dependencies/Gherkin/GHScenarioDefinition_Private.h; sourceTree = "<group>"; };
+		64FDB7C1398F71536AD7FC0AE19975B4 /* Cucumberish-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Cucumberish-dummy.m"; sourceTree = "<group>"; };
+		6AF8F94131331AE077B14D71FADB7593 /* Pods-UITestingUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UITestingUITests-dummy.m"; sourceTree = "<group>"; };
+		6C322E66BD8540DC799A0988E91C0E50 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EA6B2132864E7ED8BD67BFF491E9C51 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F10A2F0AECB8953216AA5A2C52C45DB /* GHBackground.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GHBackground.m; path = Cucumberish/Dependencies/Gherkin/GHBackground.m; sourceTree = "<group>"; };
+		744AE55852F119A7878F0E8EA30C325E /* SystemAlertAllow.json */ = {isa = PBXFileReference; includeInIndex = 1; name = SystemAlertAllow.json; path = AutoMate/Models/Messages/SystemAlertAllow.json; sourceTree = "<group>"; };
+		750236F66B94DEE442CAFEF154FF1EB8 /* LocationAlertOk.json */ = {isa = PBXFileReference; includeInIndex = 1; name = LocationAlertOk.json; path = AutoMate/Models/Messages/LocationAlertOk.json; sourceTree = "<group>"; };
+		7566E47CC7131264761B4054EFEDDB1A /* GHGherkinLanguageConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GHGherkinLanguageConstants.h; path = Cucumberish/Dependencies/Gherkin/GHGherkinLanguageConstants.h; sourceTree = "<group>"; };
+		76642A9EAD1ECF3D2036B70D4780B489 /* Pods-UITestingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UITestingUITests.release.xcconfig"; sourceTree = "<group>"; };
+		76DE05E6961E593745CABE61060D9B88 /* CalendarAlert.json */ = {isa = PBXFileReference; includeInIndex = 1; name = CalendarAlert.json; path = AutoMate/Models/Messages/CalendarAlert.json; sourceTree = "<group>"; };
+		7A25FD65FFCE3BBC53F745638D274133 /* GHScenario.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GHScenario.m; path = Cucumberish/Dependencies/Gherkin/GHScenario.m; sourceTree = "<group>"; };
+		7ACE3A9FD7997D4FA664EA1BC7F08B2A /* GHGherkinDialect.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GHGherkinDialect.h; path = Cucumberish/Dependencies/Gherkin/GHGherkinDialect.h; sourceTree = "<group>"; };
+		7B13CF3FCF58D5B974B09564CB0C7DB2 /* Pods-UITestingTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UITestingTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7BE116340548774737AC5D5ADC8D4CA5 /* GHDocString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GHDocString.h; path = Cucumberish/Dependencies/Gherkin/GHDocString.h; sourceTree = "<group>"; };
+		7BF7CEA4E855D72F37EEE2BCB9D09000 /* Cucumberish.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Cucumberish.m; path = Cucumberish/Cucumberish.m; sourceTree = "<group>"; };
+		7FA26076E3074700F66DCB1727C2C60D /* GHAstNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GHAstNode.m; path = Cucumberish/Dependencies/Gherkin/GHAstNode.m; sourceTree = "<group>"; };
+		80AE33F6156D73DBB9088A65C26228F1 /* CCIFeature.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CCIFeature.h; path = Cucumberish/Core/Models/CCIFeature.h; sourceTree = "<group>"; };
+		80C82283F763D9ABC7DD3BB91787CA8D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		81E9C5A2D3D1B7D6F0C6B8ADCAC56892 /* GHTokenScanner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GHTokenScanner.h; path = Cucumberish/Dependencies/Gherkin/GHTokenScanner.h; sourceTree = "<group>"; };
+		83428CF668238ABAF176ABF258B1F83D /* GHLocation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GHLocation.m; path = Cucumberish/Dependencies/Gherkin/GHLocation.m; sourceTree = "<group>"; };
+		838A6E3CC2899913EF87AE174C06AA80 /* GHScenarioDefinition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GHScenarioDefinition.h; path = Cucumberish/Dependencies/Gherkin/GHScenarioDefinition.h; sourceTree = "<group>"; };
+		85993056904C0E1F48B833E3C992C9FB /* PushedPage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PushedPage.swift; path = AutoMate/PageObjects/PushedPage.swift; sourceTree = "<group>"; };
+		8902CAB81168B8F78EF11B1730045AA3 /* Cucumberish.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Cucumberish.framework; path = Cucumberish.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		89C9AA4C82167639543D16486F723639 /* Pods-UITestingTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UITestingTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8C3C26E828A666E11A4367E21AAC057E /* HealthAlert.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HealthAlert.swift; path = AutoMate/HealthAlert.swift; sourceTree = "<group>"; };
+		8CF8288C2EDC7D9F258F872768AB18F6 /* LaunchEnvironmentValue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LaunchEnvironmentValue.swift; path = AutoMate/LaunchEnvironmentValue.swift; sourceTree = "<group>"; };
+		8CFFA80343207A9BD7B892325C5346FD /* GHHasRowsProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GHHasRowsProtocol.h; path = Cucumberish/Dependencies/Gherkin/GHHasRowsProtocol.h; sourceTree = "<group>"; };
+		901109EBAD365A1E75415D4104855A61 /* CCIScenarioDefinition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CCIScenarioDefinition.m; path = Cucumberish/Core/Models/CCIScenarioDefinition.m; sourceTree = "<group>"; };
+		90919003D74D325200C5313856087BCF /* GHHasLocationProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GHHasLocationProtocol.h; path = Cucumberish/Dependencies/Gherkin/GHHasLocationProtocol.h; sourceTree = "<group>"; };
+		90F76C97652987C6967E7974A8B3062C /* SpeechRecognitionAlert.json */ = {isa = PBXFileReference; includeInIndex = 1; name = SpeechRecognitionAlert.json; path = AutoMate/Models/Messages/SpeechRecognitionAlert.json; sourceTree = "<group>"; };
+		918BA5C29A824A35017D6A2D20F6F5AA /* NSArray+Hashes.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+Hashes.m"; path = "Cucumberish/Utils/NSArray+Hashes.m"; sourceTree = "<group>"; };
+		92DA78B2A146D604268A570F2F308F66 /* GHGherkinLine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GHGherkinLine.m; path = Cucumberish/Dependencies/Gherkin/GHGherkinLine.m; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9519011246B7D2B1B9D857DE96FB3E53 /* GHComment.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GHComment.m; path = Cucumberish/Dependencies/Gherkin/GHComment.m; sourceTree = "<group>"; };
+		9527A15B22F083A7964619A31B8BB8F6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96E03CA85574AB392FF30394F05F9E2D /* CoreGraphics.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoreGraphics.swift; path = "AutoMate/Foundation extensions/CoreGraphics.swift"; sourceTree = "<group>"; };
+		9790C0AC125581628F98832D0F53FDB9 /* NSArray+Hashes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+Hashes.h"; path = "Cucumberish/Utils/NSArray+Hashes.h"; sourceTree = "<group>"; };
+		99580A2F56A0FBB16D4E6F496E1D5631 /* CCILoggingManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CCILoggingManager.m; path = Cucumberish/Core/Managers/CCILoggingManager.m; sourceTree = "<group>"; };
+		998CE8C136CBF87561F0FDA758A85405 /* GHBackground.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GHBackground.h; path = Cucumberish/Dependencies/Gherkin/GHBackground.h; sourceTree = "<group>"; };
+		9BAD5B82C162541D88A1C4EC233B7D51 /* ResourceBundle-GherkinLanguages-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-GherkinLanguages-Info.plist"; sourceTree = "<group>"; };
+		9BD888842DF09009A6F7CB147DA76CB4 /* ModalPage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ModalPage.swift; path = AutoMate/PageObjects/ModalPage.swift; sourceTree = "<group>"; };
+		9BE600B5762A0CD079348584865D5696 /* HealthAlertTurnOnAll.json */ = {isa = PBXFileReference; includeInIndex = 1; name = HealthAlertTurnOnAll.json; path = AutoMate/Models/Messages/HealthAlertTurnOnAll.json; sourceTree = "<group>"; };
+		9C1FEE2A35AF92D11FBCB60D650D62D6 /* Pods-UITestingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UITestingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9D953297ACB8566A876A53CC43A2E441 /* LocationUpgradeWhenInUseAlwaysAlert.json */ = {isa = PBXFileReference; includeInIndex = 1; name = LocationUpgradeWhenInUseAlwaysAlert.json; path = AutoMate/Models/Messages/LocationUpgradeWhenInUseAlwaysAlert.json; sourceTree = "<group>"; };
+		9E7411E54875957F22BE064CB7F32DC4 /* GHDataTable.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GHDataTable.m; path = Cucumberish/Dependencies/Gherkin/GHDataTable.m; sourceTree = "<group>"; };
+		A0B60EA1B3CAA05B058D3C76C07831C9 /* SystemAlert.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SystemAlert.swift; path = AutoMate/SystemAlert.swift; sourceTree = "<group>"; };
+		A12EFF019B41007540346BA6514AC864 /* GHScenario.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GHScenario.h; path = Cucumberish/Dependencies/Gherkin/GHScenario.h; sourceTree = "<group>"; };
+		A22C98C4B6C16A7BF9EDF782A47E4B6C /* XCUIElementTypeQueryProvider+Any.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "XCUIElementTypeQueryProvider+Any.swift"; path = "AutoMate/XCTest extensions/XCUIElementTypeQueryProvider+Any.swift"; sourceTree = "<group>"; };
+		A2BF54CFDF03E386D4E65638949F6E25 /* GHDataTable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GHDataTable.h; path = Cucumberish/Dependencies/Gherkin/GHDataTable.h; sourceTree = "<group>"; };
+		A370F37CF43A4C3F22140B2A4421C9DC /* GHDocString.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GHDocString.m; path = Cucumberish/Dependencies/Gherkin/GHDocString.m; sourceTree = "<group>"; };
+		A471F88BDF6648D41616ECA225C9B844 /* Pods-UITestingTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UITestingTests-umbrella.h"; sourceTree = "<group>"; };
+		A4B5E5F6FE0E0D6A60FB6379717B8658 /* HealthAlertDeny.json */ = {isa = PBXFileReference; includeInIndex = 1; name = HealthAlertDeny.json; path = AutoMate/Models/Messages/HealthAlertDeny.json; sourceTree = "<group>"; };
+		AB115BAD242736D157187140A567C58D /* LocationWhenInUseAlert.json */ = {isa = PBXFileReference; includeInIndex = 1; name = LocationWhenInUseAlert.json; path = AutoMate/Models/Messages/LocationWhenInUseAlert.json; sourceTree = "<group>"; };
+		AC32044707BA609CE027C5419B391E97 /* CCIJSONDumper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CCIJSONDumper.h; path = Cucumberish/Core/Models/CCIJSONDumper.h; sourceTree = "<group>"; };
+		AC352C09AEA64D1A7739445A62982266 /* CCIStep.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CCIStep.m; path = Cucumberish/Core/Models/CCIStep.m; sourceTree = "<group>"; };
+		AD4887231D99E8B45255FFFE54B02D31 /* Pods-UITesting.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UITesting.debug.xcconfig"; sourceTree = "<group>"; };
+		AD8FED158B8428E2A2FD8AB5F5F6561A /* BaseAppPage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BaseAppPage.swift; path = AutoMate/PageObjects/BaseAppPage.swift; sourceTree = "<group>"; };
+		B04085DBD1C7BF1A9BA4712159B62B87 /* CCIArgument.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CCIArgument.m; path = Cucumberish/Core/Models/CCIArgument.m; sourceTree = "<group>"; };
+		B1E35EF79B6EB09AFAE76604F2DCC5D9 /* GHParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GHParser.h; path = Cucumberish/Dependencies/Gherkin/GHParser.h; sourceTree = "<group>"; };
+		B30365A4FBE2003E9B19A43CA2021847 /* GHGherkinDialectProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GHGherkinDialectProvider.m; path = Cucumberish/Dependencies/Gherkin/GHGherkinDialectProvider.m; sourceTree = "<group>"; };
+		B3076D9A25CAB2F4E5D40536A43C5FD5 /* HealthPermissionPage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HealthPermissionPage.swift; path = AutoMate/PageObjects/HealthPermissionPage.swift; sourceTree = "<group>"; };
+		B3892FEF53FDC43B612090FC7C72AD79 /* HardwareKeyboard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HardwareKeyboard.swift; path = AutoMate/Models/HardwareKeyboard.swift; sourceTree = "<group>"; };
+		B3D5453C42EBD19053E37AEB23CD079C /* LaunchArguments.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LaunchArguments.swift; path = AutoMate/LaunchArguments.swift; sourceTree = "<group>"; };
+		B69866CCEFFE6A0A2403B3E172F75DCA /* XCUIElement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XCUIElement.swift; path = "AutoMate/XCTest extensions/XCUIElement.swift"; sourceTree = "<group>"; };
+		B701076143B4EDB1B4CD2A8AAEB2CB5E /* GHGherkinLineProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GHGherkinLineProtocol.h; path = Cucumberish/Dependencies/Gherkin/GHGherkinLineProtocol.h; sourceTree = "<group>"; };
+		BAB8E62A278C5B15AE773B66D890EA64 /* Bundle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Bundle.swift; path = "AutoMate/Foundation extensions/Bundle.swift"; sourceTree = "<group>"; };
+		BACCC7FA36A6E92C33FDF0DEB5FF49A1 /* GHParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GHParser.m; path = Cucumberish/Dependencies/Gherkin/GHParser.m; sourceTree = "<group>"; };
+		BB14C929927DA38EA64E3C2B5F75CB73 /* GHExamples.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GHExamples.m; path = Cucumberish/Dependencies/Gherkin/GHExamples.m; sourceTree = "<group>"; };
+		BC63D9DAF7B57BF4746F042A2FEAAA38 /* CCIStepsManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CCIStepsManager.h; path = Cucumberish/Core/Managers/CCIStepsManager.h; sourceTree = "<group>"; };
+		BDDD295B7255FBABA9D033D888340B79 /* CCIExample.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CCIExample.m; path = Cucumberish/Core/Models/CCIExample.m; sourceTree = "<group>"; };
+		BDE9A97644CB65DBA61195298AA78B39 /* SystemLanguage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SystemLanguage.swift; path = AutoMate/Models/SystemLanguage.swift; sourceTree = "<group>"; };
+		BE9EA93B60C88D0824C3013CDF6505AF /* CCIBackground.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CCIBackground.h; path = Cucumberish/Core/Models/CCIBackground.h; sourceTree = "<group>"; };
+		BF85EEDF1EB5B214ACE974035E423AC0 /* SystemLaunchArguments.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SystemLaunchArguments.swift; path = AutoMate/SystemLaunchArguments.swift; sourceTree = "<group>"; };
+		BFAA7096FEDDC70C869C3F7CD076CB94 /* GHFeature.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GHFeature.h; path = Cucumberish/Dependencies/Gherkin/GHFeature.h; sourceTree = "<group>"; };
+		C061032D4D8323C0D910305AAE7135F5 /* AutoMate-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AutoMate-prefix.pch"; sourceTree = "<group>"; };
+		C08ED906E70E491E1E811627227ADF1D /* Locator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Locator.swift; path = AutoMate/Locator.swift; sourceTree = "<group>"; };
+		C0EEA56EE3711FCC8E055FD700F53E4A /* GHComment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GHComment.h; path = Cucumberish/Dependencies/Gherkin/GHComment.h; sourceTree = "<group>"; };
+		C23CA6D1580119133E971999E79079C0 /* GHNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GHNode.m; path = Cucumberish/Dependencies/Gherkin/GHNode.m; sourceTree = "<group>"; };
+		C38429D6503D98C26582CD34646F7FC7 /* SiriAlert.json */ = {isa = PBXFileReference; includeInIndex = 1; name = SiriAlert.json; path = AutoMate/Models/Messages/SiriAlert.json; sourceTree = "<group>"; };
+		C3955F5E2256D380D1C8F7DC70DB6FBE /* Pods-UITesting.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UITesting.modulemap"; sourceTree = "<group>"; };
+		C49EDEA4DDC4BE974D10F92B667277A0 /* WillowAlert.json */ = {isa = PBXFileReference; includeInIndex = 1; name = WillowAlert.json; path = AutoMate/Models/Messages/WillowAlert.json; sourceTree = "<group>"; };
+		C5036CC3A9CE36C03228C4EC3F330AF2 /* LocationAlwaysAlertAllow.json */ = {isa = PBXFileReference; includeInIndex = 1; name = LocationAlwaysAlertAllow.json; path = AutoMate/Models/Messages/LocationAlwaysAlertAllow.json; sourceTree = "<group>"; };
+		C70DED0C832B4262736CD25B89750272 /* CCIJSONDumper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CCIJSONDumper.m; path = Cucumberish/Core/Models/CCIJSONDumper.m; sourceTree = "<group>"; };
+		C7B62A8E637646A72DF847E913B0AE1B /* GHStepArgument.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GHStepArgument.m; path = Cucumberish/Dependencies/Gherkin/GHStepArgument.m; sourceTree = "<group>"; };
+		C9E9FC2534E1498537805B06A6119C4E /* GHScenarioOutline.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GHScenarioOutline.h; path = Cucumberish/Dependencies/Gherkin/GHScenarioOutline.h; sourceTree = "<group>"; };
+		CABEACE4ACC789CD51CA6AEDCDCBC1BA /* GHExamples.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GHExamples.h; path = Cucumberish/Dependencies/Gherkin/GHExamples.h; sourceTree = "<group>"; };
+		CAD2FF1C50E46B14E2713E1BF30A230F /* AutoMate.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AutoMate.xcconfig; sourceTree = "<group>"; };
+		CC44C58E1FAA6999FA16AD853EBDBFEB /* LaunchOptionsSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LaunchOptionsSet.swift; path = AutoMate/LaunchOptionsSet.swift; sourceTree = "<group>"; };
+		CD5582FBE9F4D3CE6091E8CD14627A32 /* CCIBackground.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CCIBackground.m; path = Cucumberish/Core/Models/CCIBackground.m; sourceTree = "<group>"; };
+		D1CA49BB3A0D8794FD8704CA09C8FE33 /* GHTableRow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GHTableRow.m; path = Cucumberish/Dependencies/Gherkin/GHTableRow.m; sourceTree = "<group>"; };
+		D32FB48A8B31448569C572E747CCB8B6 /* AddressBookAlert.json */ = {isa = PBXFileReference; includeInIndex = 1; name = AddressBookAlert.json; path = AutoMate/Models/Messages/AddressBookAlert.json; sourceTree = "<group>"; };
+		D52626BDFC6F942D0A0E1F2EAC5DC25D /* Pods-UITestingTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UITestingTests-frameworks.sh"; sourceTree = "<group>"; };
+		D62A658D35F9CFE742451E91C076586F /* CallsAlert.json */ = {isa = PBXFileReference; includeInIndex = 1; name = CallsAlert.json; path = AutoMate/Models/Messages/CallsAlert.json; sourceTree = "<group>"; };
+		D63983E8522008F54AB53F973C86D916 /* CCIAroundHock.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CCIAroundHock.m; path = Cucumberish/Core/Models/CCIAroundHock.m; sourceTree = "<group>"; };
+		D8AE9BEB250498CBBE3FB2157FC03FFC /* GHParserException.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GHParserException.h; path = Cucumberish/Dependencies/Gherkin/GHParserException.h; sourceTree = "<group>"; };
+		D9AB831513AE3E61A86A356C3256E5C5 /* Cucumberish.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Cucumberish.modulemap; sourceTree = "<group>"; };
+		D9B3B3AC6EB36DBF1336E2F5DA9EF5FA /* CCIStep.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CCIStep.h; path = Cucumberish/Core/Models/CCIStep.h; sourceTree = "<group>"; };
+		DA1688A56A91535A669D3D4BB7D5D4E1 /* HealthPermissionPage.json */ = {isa = PBXFileReference; includeInIndex = 1; name = HealthPermissionPage.json; path = AutoMate/Models/Messages/HealthPermissionPage.json; sourceTree = "<group>"; };
+		DD6CE33C3401CDB3DE2889DD7EB87837 /* CCIBlockDefinitions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CCIBlockDefinitions.h; path = Cucumberish/Core/CCIBlockDefinitions.h; sourceTree = "<group>"; };
+		DDD0F5DAA0AC84C5E3ADE087C20B50BA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DE1DCA8F16069D194C8DFE152872783D /* Pods-UITestingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UITestingTests.release.xcconfig"; sourceTree = "<group>"; };
+		DED963FDE6C61468699067A7ECC0716C /* GHGherkinDialectProviderProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GHGherkinDialectProviderProtocol.h; path = Cucumberish/Dependencies/Gherkin/GHGherkinDialectProviderProtocol.h; sourceTree = "<group>"; };
+		DFD5B732E63A3365F86B9DBA0AC8CDE0 /* GHToken.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GHToken.m; path = Cucumberish/Dependencies/Gherkin/GHToken.m; sourceTree = "<group>"; };
+		E01E78F5DE53B885B976717FA8F98595 /* GHTokenMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GHTokenMatcher.m; path = Cucumberish/Dependencies/Gherkin/GHTokenMatcher.m; sourceTree = "<group>"; };
+		E06C396A9FCC1D466BB25E2289BBBEA0 /* Pods-UITesting-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UITesting-umbrella.h"; sourceTree = "<group>"; };
+		E1FB32083CB1C02A22DE67ACEA1396EF /* AppUITestCase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AppUITestCase.swift; path = AutoMate/AppUITestCase.swift; sourceTree = "<group>"; };
+		E26E725C21CB88043720547232D2CC35 /* Pods-UITestingTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UITestingTests-resources.sh"; sourceTree = "<group>"; };
+		E291849199084D2C3654DC7751C05FD0 /* CCIStepDefinition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CCIStepDefinition.h; path = Cucumberish/Core/Models/CCIStepDefinition.h; sourceTree = "<group>"; };
+		E4C8FA88DB013DB3F16A3A4D357BDBDE /* GHAstBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GHAstBuilder.h; path = Cucumberish/Dependencies/Gherkin/GHAstBuilder.h; sourceTree = "<group>"; };
+		E4E83924D60171C1FC1E364CEF7E8D1E /* NSObject+Dictionary.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+Dictionary.m"; path = "Cucumberish/Utils/NSObject+Dictionary.m"; sourceTree = "<group>"; };
+		E627D824779B07C5040C70B10AAE096E /* CCIStepDefinition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CCIStepDefinition.m; path = Cucumberish/Core/Models/CCIStepDefinition.m; sourceTree = "<group>"; };
+		EA0F31DE0D850754D2A991DB6A11FF88 /* GHGherkinLanguageSetting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GHGherkinLanguageSetting.h; path = Cucumberish/Dependencies/Gherkin/GHGherkinLanguageSetting.h; sourceTree = "<group>"; };
+		EC0FE76D6DDA2B4F5D5DD534EB0AEB77 /* Pods-UITestingUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UITestingUITests.modulemap"; sourceTree = "<group>"; };
+		EE78C16A5F75FDAFE55897E3249768C9 /* XCUIElementQuery+Predicate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "XCUIElementQuery+Predicate.swift"; path = "AutoMate/XCTest extensions/XCUIElementQuery+Predicate.swift"; sourceTree = "<group>"; };
+		EE9999CF1BB0B09FC326124895EF2EB2 /* CCIExample.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CCIExample.h; path = Cucumberish/Core/Models/CCIExample.h; sourceTree = "<group>"; };
+		EEFEFA1C324810E624AD237CAE56EACB /* SystemCountry.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SystemCountry.swift; path = AutoMate/Models/SystemCountry.swift; sourceTree = "<group>"; };
+		EF867A8D969EFA000B1DC81D6CEDD963 /* AutoMate-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AutoMate-dummy.m"; sourceTree = "<group>"; };
+		F072C863311B68A57E18FFF6DF5EB79C /* PhotosAlert.json */ = {isa = PBXFileReference; includeInIndex = 1; name = PhotosAlert.json; path = AutoMate/Models/Messages/PhotosAlert.json; sourceTree = "<group>"; };
+		F2E3AB408A67A9369997B3CD64D1A2C1 /* GHLocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GHLocation.h; path = Cucumberish/Dependencies/Gherkin/GHLocation.h; sourceTree = "<group>"; };
+		F34268315EE57983B76E5E10F54BF0E9 /* CameraAlert.json */ = {isa = PBXFileReference; includeInIndex = 1; name = CameraAlert.json; path = AutoMate/Models/Messages/CameraAlert.json; sourceTree = "<group>"; };
+		F3586B0453E5E0F5CB208507CF79797E /* GHTableRow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GHTableRow.h; path = Cucumberish/Dependencies/Gherkin/GHTableRow.h; sourceTree = "<group>"; };
+		F499B2C93F773F35029338B0C8F084E3 /* CCIArgument.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CCIArgument.h; path = Cucumberish/Core/Models/CCIArgument.h; sourceTree = "<group>"; };
+		F54153F1544BC569ECB7EDF1816E4C73 /* GHTableCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GHTableCell.h; path = Cucumberish/Dependencies/Gherkin/GHTableCell.h; sourceTree = "<group>"; };
+		F54691410E16E12956998872E6FB4425 /* Pods-UITestingUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UITestingUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F56917770E7FA8644A071ABC43A80EB0 /* GHGherkinLine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GHGherkinLine.h; path = Cucumberish/Dependencies/Gherkin/GHGherkinLine.h; sourceTree = "<group>"; };
+		F890F93D3CB2F6215324C8A58E33942A /* GHParser+Extensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GHParser+Extensions.m"; path = "Cucumberish/Dependencies/Gherkin/GHParser+Extensions.m"; sourceTree = "<group>"; };
+		F8FBA0C40936B2BBE49930B67FB4CCA9 /* CCIHock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CCIHock.h; path = Cucumberish/Core/Models/CCIHock.h; sourceTree = "<group>"; };
+		F9207709F023A8C445677FD0E781F0FD /* CCILocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CCILocation.h; path = Cucumberish/Core/Models/CCILocation.h; sourceTree = "<group>"; };
+		FA68BE72D8E32C4613A7EE099A486ED7 /* Array.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Array.swift; path = "AutoMate/Foundation extensions/Array.swift"; sourceTree = "<group>"; };
+		FABDAFBAB3D95B9A60A67B327D7B5A95 /* CCIScenarioDefinition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CCIScenarioDefinition.h; path = Cucumberish/Core/Models/CCIScenarioDefinition.h; sourceTree = "<group>"; };
+		FB0B951AF22A535196CCAD1B71C80043 /* NSString+Trim.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+Trim.h"; path = "Cucumberish/Dependencies/Gherkin/NSString+Trim.h"; sourceTree = "<group>"; };
+		FCB5CBAFE8507EA51997CB7671F582FE /* GHTag.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GHTag.m; path = Cucumberish/Dependencies/Gherkin/GHTag.m; sourceTree = "<group>"; };
+		FD424D3223E66331148E9654F2E9125A /* GHScenarioDefinition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GHScenarioDefinition.m; path = Cucumberish/Dependencies/Gherkin/GHScenarioDefinition.m; sourceTree = "<group>"; };
+		FDBABE7A2FE48B443819589ED5B7AADA /* Pods-UITesting-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UITesting-acknowledgements.plist"; sourceTree = "<group>"; };
+		FFEBDE39DB2A48358A33D5AC32DD9B1F /* GHTag.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GHTag.h; path = Cucumberish/Dependencies/Gherkin/GHTag.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		12CA5655C5E75BA54CF47C795D5EE54D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B4068219FA5C21EE7941368F5702EF7 /* Foundation.framework in Frameworks */,
+				08F49B9E8918CB28E397A4D72D55014A /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		808D4BF66A1FBCD93B8802BDB203389B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				982B98895A1F9040F5C6F0F85FBDDA69 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EDAFB3E97770906C03E14DA2C61CC9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8338D48BF46ACB92F3B9EF220F53D570 /* Foundation.framework in Frameworks */,
+				F304557BE053C3317FCD2710FDC6B4DA /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFE9BD3F1F4DE5BAD741D19BE98E7686 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				438011B082388AEB6C989FF4E913295C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBA84D40F4CDCED010594D5E54C4A3E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22E9CFCCD6FE94A8F717A27978B9CDB9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA95EF8CCBB3CDDF35082DA165BE7AFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09684A35D05B6B66268D1930850DA29A /* Pods-UITesting */ = {
+			isa = PBXGroup;
+			children = (
+				4D7103BA4B4BF31454DCF2C0C458B1B0 /* Info.plist */,
+				C3955F5E2256D380D1C8F7DC70DB6FBE /* Pods-UITesting.modulemap */,
+				15C9772EEA13466EE1E4774654FD6A6C /* Pods-UITesting-acknowledgements.markdown */,
+				FDBABE7A2FE48B443819589ED5B7AADA /* Pods-UITesting-acknowledgements.plist */,
+				1E23C25ACD54950D6876EA04FC944C97 /* Pods-UITesting-dummy.m */,
+				63EF2B8BC8B0230A4E7C44E02D45160F /* Pods-UITesting-frameworks.sh */,
+				1C50F41B9566D43FB801AC053FDF0D23 /* Pods-UITesting-resources.sh */,
+				E06C396A9FCC1D466BB25E2289BBBEA0 /* Pods-UITesting-umbrella.h */,
+				AD4887231D99E8B45255FFFE54B02D31 /* Pods-UITesting.debug.xcconfig */,
+				14819D4445890B76C13B9C42FC3C592B /* Pods-UITesting.release.xcconfig */,
+			);
+			name = "Pods-UITesting";
+			path = "Target Support Files/Pods-UITesting";
+			sourceTree = "<group>";
+		};
+		1E85F0F44277212282918D8D5DDB3588 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				DDD0F5DAA0AC84C5E3ADE087C20B50BA /* Foundation.framework */,
+				80C82283F763D9ABC7DD3BB91787CA8D /* XCTest.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		2799954FFB0AF3390C352F58F50B7357 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				09684A35D05B6B66268D1930850DA29A /* Pods-UITesting */,
+				8A9375F2D49C4148CC0A184C60FBF380 /* Pods-UITestingTests */,
+				FAF002ECD2CF044EFCA738CFF96773D0 /* Pods-UITestingUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		2BAF91E09EE2745A0A76BC6F7792572E /* AutoMate */ = {
+			isa = PBXGroup;
+			children = (
+				E1FB32083CB1C02A22DE67ACEA1396EF /* AppUITestCase.swift */,
+				FA68BE72D8E32C4613A7EE099A486ED7 /* Array.swift */,
+				36B949AAE0A8A4BE01B7A2B946792BD4 /* AutoMateLaunchEnvironmentKeys.swift */,
+				561A63D4009B2CC93124787715838508 /* AutoMateLaunchEnvironments.swift */,
+				AD8FED158B8428E2A2FD8AB5F5F6561A /* BaseAppPage.swift */,
+				BAB8E62A278C5B15AE773B66D890EA64 /* Bundle.swift */,
+				96E03CA85574AB392FF30394F05F9E2D /* CoreGraphics.swift */,
+				3CC5942881F45378DA02D3E8E82CE038 /* Dictionary.swift */,
+				B3892FEF53FDC43B612090FC7C72AD79 /* HardwareKeyboard.swift */,
+				8C3C26E828A666E11A4367E21AAC057E /* HealthAlert.swift */,
+				1B7EE25B0BD06BB4D9A75E1B4D9FD476 /* HealthAlerts.swift */,
+				B3076D9A25CAB2F4E5D40536A43C5FD5 /* HealthPermissionPage.swift */,
+				00C6D3FD99D9DAFB9D79203D3E04054A /* KeyboardLocator.swift */,
+				2FFF2E0F3937904682B209B3B3D56EE7 /* LaunchArgumentProtocols.swift */,
+				B3D5453C42EBD19053E37AEB23CD079C /* LaunchArguments.swift */,
+				1464AB4C1101A89312762975D9C7338F /* LaunchArgumentValue.swift */,
+				241A75C287B78CFD04C1071BADACB34F /* LaunchEnvironmentProtocols.swift */,
+				313BF8DCE77DDE68E017B484D99F987E /* LaunchEnvironments.swift */,
+				8CF8288C2EDC7D9F258F872768AB18F6 /* LaunchEnvironmentValue.swift */,
+				5E7BD077D5219DCF73DF8E0D1378637A /* LaunchOptionProtocol.swift */,
+				CC44C58E1FAA6999FA16AD853EBDBFEB /* LaunchOptionsSet.swift */,
+				2158A0F26DA2833B24126980888C9DA5 /* LocationAlert.swift */,
+				55762EF867D84E69A7AD01A75E1F5B1D /* LocationAlerts.swift */,
+				C08ED906E70E491E1E811627227ADF1D /* Locator.swift */,
+				9BD888842DF09009A6F7CB147DA76CB4 /* ModalPage.swift */,
+				85993056904C0E1F48B833E3C992C9FB /* PushedPage.swift */,
+				41CF23DFE85C7509E46A7169C50B6B92 /* Sequence.swift */,
+				2C1385200FAF52AEAD5DE8DCAE6635A5 /* ServiceRequestAlerts.swift */,
+				059CF1A196595CBB6D92A1EC26BA0813 /* SoftwareKeyboard.swift */,
+				257E8D444F671F5A516364CF15937D10 /* String.swift */,
+				A0B60EA1B3CAA05B058D3C76C07831C9 /* SystemAlert.swift */,
+				EEFEFA1C324810E624AD237CAE56EACB /* SystemCountry.swift */,
+				BDE9A97644CB65DBA61195298AA78B39 /* SystemLanguage.swift */,
+				BF85EEDF1EB5B214ACE974035E423AC0 /* SystemLaunchArguments.swift */,
+				4921237B13E3EB0898B4AAC6D46B2EC7 /* TestLauncher.swift */,
+				59997618DCCC0BD050620BA6D6FF3521 /* XCTestCase.swift */,
+				4993A258545788E0D61B8C67706B12A9 /* XCTestCase+Identifiable.swift */,
+				39B8F93BE3D2D038D5D776C9D2578E01 /* XCUIApplication.swift */,
+				B69866CCEFFE6A0A2403B3E172F75DCA /* XCUIElement.swift */,
+				2B85FCE6377BDF35106DF8943153E360 /* XCUIElement+Swipe.swift */,
+				31D07B05F8DDDD8CAA17FBA1F665EF10 /* XCUIElementQuery.swift */,
+				17D06B01F3F4279C8DD56E5E59EBA595 /* XCUIElementQuery+Locator.swift */,
+				EE78C16A5F75FDAFE55897E3249768C9 /* XCUIElementQuery+Predicate.swift */,
+				A22C98C4B6C16A7BF9EDF782A47E4B6C /* XCUIElementTypeQueryProvider+Any.swift */,
+				42E1ACB188D498FC03DB8BB923509D23 /* Resources */,
+				94A2069EABFC619172AAA9282D7B13BD /* Support Files */,
+			);
+			name = AutoMate;
+			path = AutoMate;
+			sourceTree = "<group>";
+		};
+		42E1ACB188D498FC03DB8BB923509D23 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D32FB48A8B31448569C572E747CCB8B6 /* AddressBookAlert.json */,
+				3279A63C7EB93051A52BD8A982A79C7C /* BluetoothPeripheralAlert.json */,
+				76DE05E6961E593745CABE61060D9B88 /* CalendarAlert.json */,
+				D62A658D35F9CFE742451E91C076586F /* CallsAlert.json */,
+				F34268315EE57983B76E5E10F54BF0E9 /* CameraAlert.json */,
+				10348EC732B58C61E47EFBF34B92B9B3 /* HealthAlertAllow.json */,
+				A4B5E5F6FE0E0D6A60FB6379717B8658 /* HealthAlertDeny.json */,
+				32B99A312FF7D7A6FD01DF0405B6765E /* HealthAlertOk.json */,
+				29A1FA3C4E4A3A316060CF049ADED267 /* HealthAlertTurnOffAll.json */,
+				9BE600B5762A0CD079348584865D5696 /* HealthAlertTurnOnAll.json */,
+				2D199F9853F3B5BECACF17FA7CD18719 /* HealthAuthorizationDontAllowAlert.json */,
+				DA1688A56A91535A669D3D4BB7D5D4E1 /* HealthPermissionPage.json */,
+				33C9982C44EB400A1B9692FCFD93B9D1 /* LocationAlertAllow.json */,
+				059E4458A233A8507D2D46BBDE5F093F /* LocationAlertCancel.json */,
+				479B2E37ABBD3CCDDB66B29BC5338ABC /* LocationAlertDeny.json */,
+				750236F66B94DEE442CAFEF154FF1EB8 /* LocationAlertOk.json */,
+				0498672468CDBFB16D166347109178E6 /* LocationAlwaysAlert.json */,
+				C5036CC3A9CE36C03228C4EC3F330AF2 /* LocationAlwaysAlertAllow.json */,
+				4EE77A0216DDB5DECBCEC5BD27507FC2 /* LocationAlwaysAlertAllowWhenInUseOnly.json */,
+				545DA27F3F5126EF6027633F513A0F08 /* LocationUpgradeToAlwaysAlertAllow.json */,
+				9D953297ACB8566A876A53CC43A2E441 /* LocationUpgradeWhenInUseAlwaysAlert.json */,
+				AB115BAD242736D157187140A567C58D /* LocationWhenInUseAlert.json */,
+				565945478A471E14F9F9157D30043DC1 /* MediaLibraryAlert.json */,
+				07C8CE07E41F97252F874C76806B68FA /* MicrophoneAlert.json */,
+				63CD7FD003483372197CCE2ABA62CD20 /* MotionAlert.json */,
+				26BE01DA74C92D33D00D2C87CB45F3E5 /* PhotosAddAlert.json */,
+				F072C863311B68A57E18FFF6DF5EB79C /* PhotosAlert.json */,
+				33979A20F457F432E0EB88C13D625F74 /* RemindersAlert.json */,
+				C38429D6503D98C26582CD34646F7FC7 /* SiriAlert.json */,
+				90F76C97652987C6967E7974A8B3062C /* SpeechRecognitionAlert.json */,
+				744AE55852F119A7878F0E8EA30C325E /* SystemAlertAllow.json */,
+				00A1416135E2E3DFAB9F92A042585A51 /* SystemAlertDeny.json */,
+				C49EDEA4DDC4BE974D10F92B667277A0 /* WillowAlert.json */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1E85F0F44277212282918D8D5DDB3588 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		52C3C5036A76C330D4B64BF3B00A95EC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D9AB831513AE3E61A86A356C3256E5C5 /* Cucumberish.modulemap */,
+				1C76A5765B3689634366AD98292960D1 /* Cucumberish.xcconfig */,
+				64FDB7C1398F71536AD7FC0AE19975B4 /* Cucumberish-dummy.m */,
+				09D2B2FB46CE8057D58F7E8B5199E77D /* Cucumberish-prefix.pch */,
+				13790A0F5DACDCD793A6D3F04970C8FF /* Cucumberish-umbrella.h */,
+				9527A15B22F083A7964619A31B8BB8F6 /* Info.plist */,
+				9BAD5B82C162541D88A1C4EC233B7D51 /* ResourceBundle-GherkinLanguages-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Cucumberish";
+			sourceTree = "<group>";
+		};
+		60372AD22388E5EB047AB6ED300DC89F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4AA13348468A36C4564A02073765E48E /* gherkin-languages.json */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				7EC24346C7833C55746F5C5046EEDEE2 /* Pods */,
+				FE22CAF9FF1DEFC5951518EDF6C659C1 /* Products */,
+				2799954FFB0AF3390C352F58F50B7357 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7EC24346C7833C55746F5C5046EEDEE2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2BAF91E09EE2745A0A76BC6F7792572E /* AutoMate */,
+				DDE28040F39DDC7E7FE08747772E5A1F /* Cucumberish */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8A9375F2D49C4148CC0A184C60FBF380 /* Pods-UITestingTests */ = {
+			isa = PBXGroup;
+			children = (
+				6EA6B2132864E7ED8BD67BFF491E9C51 /* Info.plist */,
+				40A45199D671CBDC021FC55652D9FCAF /* Pods-UITestingTests.modulemap */,
+				7B13CF3FCF58D5B974B09564CB0C7DB2 /* Pods-UITestingTests-acknowledgements.markdown */,
+				89C9AA4C82167639543D16486F723639 /* Pods-UITestingTests-acknowledgements.plist */,
+				0042E955F55EF21F2FF011FCC92FC5B8 /* Pods-UITestingTests-dummy.m */,
+				D52626BDFC6F942D0A0E1F2EAC5DC25D /* Pods-UITestingTests-frameworks.sh */,
+				E26E725C21CB88043720547232D2CC35 /* Pods-UITestingTests-resources.sh */,
+				A471F88BDF6648D41616ECA225C9B844 /* Pods-UITestingTests-umbrella.h */,
+				9C1FEE2A35AF92D11FBCB60D650D62D6 /* Pods-UITestingTests.debug.xcconfig */,
+				DE1DCA8F16069D194C8DFE152872783D /* Pods-UITestingTests.release.xcconfig */,
+			);
+			name = "Pods-UITestingTests";
+			path = "Target Support Files/Pods-UITestingTests";
+			sourceTree = "<group>";
+		};
+		94A2069EABFC619172AAA9282D7B13BD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4729898C9589B15D43D14CBA7E3712D0 /* AutoMate.modulemap */,
+				CAD2FF1C50E46B14E2713E1BF30A230F /* AutoMate.xcconfig */,
+				EF867A8D969EFA000B1DC81D6CEDD963 /* AutoMate-dummy.m */,
+				C061032D4D8323C0D910305AAE7135F5 /* AutoMate-prefix.pch */,
+				10AC0CECCA8524ABDA2FBC39BF2C683D /* AutoMate-umbrella.h */,
+				4B1E2D4752B2AC4C8EF549DAE366E5E0 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AutoMate";
+			sourceTree = "<group>";
+		};
+		DDE28040F39DDC7E7FE08747772E5A1F /* Cucumberish */ = {
+			isa = PBXGroup;
+			children = (
+				F499B2C93F773F35029338B0C8F084E3 /* CCIArgument.h */,
+				B04085DBD1C7BF1A9BA4712159B62B87 /* CCIArgument.m */,
+				4F4ECDFDAA96A03AC582F32047987D1F /* CCIAroundHock.h */,
+				D63983E8522008F54AB53F973C86D916 /* CCIAroundHock.m */,
+				BE9EA93B60C88D0824C3013CDF6505AF /* CCIBackground.h */,
+				CD5582FBE9F4D3CE6091E8CD14627A32 /* CCIBackground.m */,
+				DD6CE33C3401CDB3DE2889DD7EB87837 /* CCIBlockDefinitions.h */,
+				EE9999CF1BB0B09FC326124895EF2EB2 /* CCIExample.h */,
+				BDDD295B7255FBABA9D033D888340B79 /* CCIExample.m */,
+				80AE33F6156D73DBB9088A65C26228F1 /* CCIFeature.h */,
+				4FC2161D5CA2149E7001D8C2A34C1D02 /* CCIFeature.m */,
+				082C1FB902AE96A7FC2291051BD3F00C /* CCIFeaturesManager.h */,
+				0CC644356EC5AAF8D7D8BFE5E6DFC5A2 /* CCIFeaturesManager.m */,
+				F8FBA0C40936B2BBE49930B67FB4CCA9 /* CCIHock.h */,
+				0608368D319E596CB22C075D155A19A2 /* CCIHock.m */,
+				AC32044707BA609CE027C5419B391E97 /* CCIJSONDumper.h */,
+				C70DED0C832B4262736CD25B89750272 /* CCIJSONDumper.m */,
+				F9207709F023A8C445677FD0E781F0FD /* CCILocation.h */,
+				3BBF4120D3F2785338616DFC194CEE31 /* CCILocation.m */,
+				3A76442E9119939A68C5BA8523FE412D /* CCILoggingManager.h */,
+				99580A2F56A0FBB16D4E6F496E1D5631 /* CCILoggingManager.m */,
+				FABDAFBAB3D95B9A60A67B327D7B5A95 /* CCIScenarioDefinition.h */,
+				901109EBAD365A1E75415D4104855A61 /* CCIScenarioDefinition.m */,
+				D9B3B3AC6EB36DBF1336E2F5DA9EF5FA /* CCIStep.h */,
+				AC352C09AEA64D1A7739445A62982266 /* CCIStep.m */,
+				E291849199084D2C3654DC7751C05FD0 /* CCIStepDefinition.h */,
+				E627D824779B07C5040C70B10AAE096E /* CCIStepDefinition.m */,
+				BC63D9DAF7B57BF4746F042A2FEAAA38 /* CCIStepsManager.h */,
+				63A5CF65C9F0D8610EDCDCAB6E23D882 /* CCIStepsManager.m */,
+				51D30A6C8C32D8F79D768D65C9CDD3EE /* Cucumberish.h */,
+				7BF7CEA4E855D72F37EEE2BCB9D09000 /* Cucumberish.m */,
+				E4C8FA88DB013DB3F16A3A4D357BDBDE /* GHAstBuilder.h */,
+				51AC05E179EC4029A8F4DCC21F93A1C7 /* GHAstBuilder.m */,
+				0462843788FBFAB96CF4E26B3BC2F620 /* GHAstNode.h */,
+				7FA26076E3074700F66DCB1727C2C60D /* GHAstNode.m */,
+				998CE8C136CBF87561F0FDA758A85405 /* GHBackground.h */,
+				6F10A2F0AECB8953216AA5A2C52C45DB /* GHBackground.m */,
+				C0EEA56EE3711FCC8E055FD700F53E4A /* GHComment.h */,
+				9519011246B7D2B1B9D857DE96FB3E53 /* GHComment.m */,
+				A2BF54CFDF03E386D4E65638949F6E25 /* GHDataTable.h */,
+				9E7411E54875957F22BE064CB7F32DC4 /* GHDataTable.m */,
+				7BE116340548774737AC5D5ADC8D4CA5 /* GHDocString.h */,
+				A370F37CF43A4C3F22140B2A4421C9DC /* GHDocString.m */,
+				CABEACE4ACC789CD51CA6AEDCDCBC1BA /* GHExamples.h */,
+				BB14C929927DA38EA64E3C2B5F75CB73 /* GHExamples.m */,
+				BFAA7096FEDDC70C869C3F7CD076CB94 /* GHFeature.h */,
+				19A11B9CBF22C902DC22AE9FB4B1E679 /* GHFeature.m */,
+				7ACE3A9FD7997D4FA664EA1BC7F08B2A /* GHGherkinDialect.h */,
+				464D379AA064D4F2A3459344706A944C /* GHGherkinDialect.m */,
+				3A0DF19626DB7554CB42C16DC4D2D6C0 /* GHGherkinDialectProvider.h */,
+				B30365A4FBE2003E9B19A43CA2021847 /* GHGherkinDialectProvider.m */,
+				DED963FDE6C61468699067A7ECC0716C /* GHGherkinDialectProviderProtocol.h */,
+				7566E47CC7131264761B4054EFEDDB1A /* GHGherkinLanguageConstants.h */,
+				4F9CB6EAF3B9DDCF1D7CD8C1D275401E /* GHGherkinLanguageConstants.m */,
+				EA0F31DE0D850754D2A991DB6A11FF88 /* GHGherkinLanguageSetting.h */,
+				332598A19CE0FD90685496091CA3D243 /* GHGherkinLanguageSetting.m */,
+				F56917770E7FA8644A071ABC43A80EB0 /* GHGherkinLine.h */,
+				92DA78B2A146D604268A570F2F308F66 /* GHGherkinLine.m */,
+				B701076143B4EDB1B4CD2A8AAEB2CB5E /* GHGherkinLineProtocol.h */,
+				41BFC9A1E329A66249EB862A0E684B37 /* GHGherkinLineSpan.h */,
+				12A7623BA1EC4CB99189F699EAE967B2 /* GHGherkinLineSpan.m */,
+				14B9CE2F68FDD5DB15F158BD97228503 /* GHHasDescriptionProtocol.h */,
+				90919003D74D325200C5313856087BCF /* GHHasLocationProtocol.h */,
+				8CFFA80343207A9BD7B892325C5346FD /* GHHasRowsProtocol.h */,
+				031292E0067580998DE932E924FAFC8A /* GHHasStepsProtocol.h */,
+				5BA93E3CFF2AC1F41F000DD03AE17975 /* GHHasTagsProtocol.h */,
+				F2E3AB408A67A9369997B3CD64D1A2C1 /* GHLocation.h */,
+				83428CF668238ABAF176ABF258B1F83D /* GHLocation.m */,
+				5323B59450C4329F0B46CF5C4ACFB5AB /* GHNode.h */,
+				C23CA6D1580119133E971999E79079C0 /* GHNode.m */,
+				B1E35EF79B6EB09AFAE76604F2DCC5D9 /* GHParser.h */,
+				BACCC7FA36A6E92C33FDF0DEB5FF49A1 /* GHParser.m */,
+				4A05F9E438A5F9625220EF94907A0B17 /* GHParser+Extensions.h */,
+				F890F93D3CB2F6215324C8A58E33942A /* GHParser+Extensions.m */,
+				D8AE9BEB250498CBBE3FB2157FC03FFC /* GHParserException.h */,
+				07AF218D324CADE171DDC85A78184A53 /* GHParserException.m */,
+				A12EFF019B41007540346BA6514AC864 /* GHScenario.h */,
+				7A25FD65FFCE3BBC53F745638D274133 /* GHScenario.m */,
+				838A6E3CC2899913EF87AE174C06AA80 /* GHScenarioDefinition.h */,
+				FD424D3223E66331148E9654F2E9125A /* GHScenarioDefinition.m */,
+				640117B0D190EC0CE3AE7A8AE5BF5187 /* GHScenarioDefinition_Private.h */,
+				C9E9FC2534E1498537805B06A6119C4E /* GHScenarioOutline.h */,
+				11C35362ECF456681B28A70CFCBF6E33 /* GHScenarioOutline.m */,
+				521D2352C763344A3130F1F20D50C27C /* GHStep.h */,
+				1509BA3817292971BA82351913E6B201 /* GHStep.m */,
+				0CCB9ADFA979B2F2DE06334C8E6F7DC0 /* GHStepArgument.h */,
+				C7B62A8E637646A72DF847E913B0AE1B /* GHStepArgument.m */,
+				F54153F1544BC569ECB7EDF1816E4C73 /* GHTableCell.h */,
+				0D041D21DC7A09DC985C51C3FDD7177F /* GHTableCell.m */,
+				F3586B0453E5E0F5CB208507CF79797E /* GHTableRow.h */,
+				D1CA49BB3A0D8794FD8704CA09C8FE33 /* GHTableRow.m */,
+				FFEBDE39DB2A48358A33D5AC32DD9B1F /* GHTag.h */,
+				FCB5CBAFE8507EA51997CB7671F582FE /* GHTag.m */,
+				0E04E535B13851F8C14129B1AC7365CF /* GHToken.h */,
+				DFD5B732E63A3365F86B9DBA0AC8CDE0 /* GHToken.m */,
+				22E60DDB198740F25A31F9CD4080BA65 /* GHTokenMatcher.h */,
+				E01E78F5DE53B885B976717FA8F98595 /* GHTokenMatcher.m */,
+				81E9C5A2D3D1B7D6F0C6B8ADCAC56892 /* GHTokenScanner.h */,
+				5B5849069807D5552DE9249C118A165B /* GHTokenScanner.m */,
+				9790C0AC125581628F98832D0F53FDB9 /* NSArray+Hashes.h */,
+				918BA5C29A824A35017D6A2D20F6F5AA /* NSArray+Hashes.m */,
+				5F15DE77BB3B198B094BEDFC7FA06B9F /* NSObject+Dictionary.h */,
+				E4E83924D60171C1FC1E364CEF7E8D1E /* NSObject+Dictionary.m */,
+				3B784F5EE7A8325121C92809BACE4D3E /* NSString+Formatter.h */,
+				63A7FECCFF5602BF5C1A246C8E6A2A13 /* NSString+Formatter.m */,
+				FB0B951AF22A535196CCAD1B71C80043 /* NSString+Trim.h */,
+				1D946401CF54ACA9E03521FB6AAD2396 /* NSString+Trim.m */,
+				60372AD22388E5EB047AB6ED300DC89F /* Resources */,
+				52C3C5036A76C330D4B64BF3B00A95EC /* Support Files */,
+			);
+			name = Cucumberish;
+			path = Cucumberish;
+			sourceTree = "<group>";
+		};
+		FAF002ECD2CF044EFCA738CFF96773D0 /* Pods-UITestingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6C322E66BD8540DC799A0988E91C0E50 /* Info.plist */,
+				EC0FE76D6DDA2B4F5D5DD534EB0AEB77 /* Pods-UITestingUITests.modulemap */,
+				F54691410E16E12956998872E6FB4425 /* Pods-UITestingUITests-acknowledgements.markdown */,
+				44B2CD79A372B997C9758012ACADE6D8 /* Pods-UITestingUITests-acknowledgements.plist */,
+				6AF8F94131331AE077B14D71FADB7593 /* Pods-UITestingUITests-dummy.m */,
+				3CF95D871106B49B87CE096C50DD0DA3 /* Pods-UITestingUITests-frameworks.sh */,
+				24C06E3751510D50643C9ED95AE8AB4F /* Pods-UITestingUITests-resources.sh */,
+				2E9FAFC1B832BED52A60689FBE0512B8 /* Pods-UITestingUITests-umbrella.h */,
+				25406A1070D35F19D459E0D535D3D423 /* Pods-UITestingUITests.debug.xcconfig */,
+				76642A9EAD1ECF3D2036B70D4780B489 /* Pods-UITestingUITests.release.xcconfig */,
+			);
+			name = "Pods-UITestingUITests";
+			path = "Target Support Files/Pods-UITestingUITests";
+			sourceTree = "<group>";
+		};
+		FE22CAF9FF1DEFC5951518EDF6C659C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				093B4E035F965B6239090FD270E3A5CE /* AutoMate.framework */,
+				8902CAB81168B8F78EF11B1730045AA3 /* Cucumberish.framework */,
+				2D65E7F48CB2204AC2A30AD2E26B7131 /* GherkinLanguages.bundle */,
+				358A5EA23783AC1C2EE947F59A32C821 /* Pods_UITesting.framework */,
+				07E5813E8C0EAE089BADF0C000B96915 /* Pods_UITestingTests.framework */,
+				1C556E52133AEF75CF307F038ADE7174 /* Pods_UITestingUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		13973163827786E29E596A9CD0FC7632 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9B82BE9934E812CD8A2470D0120E214 /* CCIArgument.h in Headers */,
+				5ABEB0DBA79C9EC8E90CFA1B43393C6F /* CCIAroundHock.h in Headers */,
+				CC7AF8272E28BD7CAEAF80B769A8E42A /* CCIBackground.h in Headers */,
+				411DEA49C6963285F84D423AA4E41D55 /* CCIBlockDefinitions.h in Headers */,
+				8675C94B2A6FD104180C642A55DEE1F2 /* CCIExample.h in Headers */,
+				96F21A7ED33C7F68A53E303922B7034C /* CCIFeature.h in Headers */,
+				5457AE40BD8B5084DDCE3C71E10A47A1 /* CCIFeaturesManager.h in Headers */,
+				2B7AD418F2EF5145A0F64EDE5B2EB9B0 /* CCIHock.h in Headers */,
+				56E81EEF4B273A45CBF38AFE79C06EBA /* CCIJSONDumper.h in Headers */,
+				1B6B91EE4BBDEDD602A8B6E68FB4A376 /* CCILocation.h in Headers */,
+				1D43F7CC1D96FC85F8107AF2F08A81E4 /* CCILoggingManager.h in Headers */,
+				5CB1E97E87EA861F0CA46364FA1D82E0 /* CCIScenarioDefinition.h in Headers */,
+				14DEAF03175A8C55BFC909F4C1801EF9 /* CCIStep.h in Headers */,
+				2A565D3E80B26F63885D6F8A64F4CA90 /* CCIStepDefinition.h in Headers */,
+				242E05C725A85287849A84D8BD293A85 /* CCIStepsManager.h in Headers */,
+				E685C576F1A060B334C1FB759675F084 /* Cucumberish-umbrella.h in Headers */,
+				50B005C06620EDE2B7C5FF3D4B02BB39 /* Cucumberish.h in Headers */,
+				C9F07D942847BAF21633F8B1D24DB010 /* GHAstBuilder.h in Headers */,
+				0F403DB8E1776C29261EA7844434F27C /* GHAstNode.h in Headers */,
+				9A773350D6B7FDDAD34C2523EA1983B4 /* GHBackground.h in Headers */,
+				00765725FC1A3DAA2AF9D291BEDF2AFB /* GHComment.h in Headers */,
+				25BF76F86631B6A1FE6325F49BF3CB48 /* GHDataTable.h in Headers */,
+				B684009BED94E45876B73CD59AC95BFE /* GHDocString.h in Headers */,
+				4407DB2436072E9358CB20C87698BABD /* GHExamples.h in Headers */,
+				DCF7D4CCBDD59823A44B262A41C7E9FB /* GHFeature.h in Headers */,
+				6360477D3C59ADCF1B2A84064F2D023A /* GHGherkinDialect.h in Headers */,
+				1A568D6CECD35803569032D4484C44B2 /* GHGherkinDialectProvider.h in Headers */,
+				4FCF471EDDA34DD54DA0F3842CF49C89 /* GHGherkinDialectProviderProtocol.h in Headers */,
+				3EFF1EB46E9FCBFE65A26D3A0C0C96BB /* GHGherkinLanguageConstants.h in Headers */,
+				9E0B64984AD97AB40BF03A37983EC35C /* GHGherkinLanguageSetting.h in Headers */,
+				42A18808B310BEB20B4646D3FED0D438 /* GHGherkinLine.h in Headers */,
+				DC0D523C7FBC155BE18A946723866612 /* GHGherkinLineProtocol.h in Headers */,
+				E5FFC1E3DED9E093B42CA963C5B3ECD7 /* GHGherkinLineSpan.h in Headers */,
+				91695834575E2AB820DE34B660735A90 /* GHHasDescriptionProtocol.h in Headers */,
+				B39E271B43A1E341A1BB68A351AF14B2 /* GHHasLocationProtocol.h in Headers */,
+				FFBABBD3633F8BF1183557A3A5320234 /* GHHasRowsProtocol.h in Headers */,
+				BB6346706B07DB1368FEB5B9A319F48B /* GHHasStepsProtocol.h in Headers */,
+				27CB724262DDB39A8161563F8EA3F172 /* GHHasTagsProtocol.h in Headers */,
+				5A0DAEEAA36A22BE0E597D058404EFD2 /* GHLocation.h in Headers */,
+				9D8433877EEF871BDD4C52D2FED841C3 /* GHNode.h in Headers */,
+				77FDBFDCEFB9A449C43C3A40EF5271CA /* GHParser+Extensions.h in Headers */,
+				A5DB00233E2F6344D95AA710210F9855 /* GHParser.h in Headers */,
+				2193444227A0D1DD4CF8FC5F42E4D982 /* GHParserException.h in Headers */,
+				89336A52BBA47EF814EEE974A534AA3D /* GHScenario.h in Headers */,
+				1C020DECEC209AB9BC2E0D6B3070BAFD /* GHScenarioDefinition.h in Headers */,
+				02F9B35A3C0F8BFDD9AD5C8DECD87CED /* GHScenarioDefinition_Private.h in Headers */,
+				D5F510C1918F6DE0AEBA4F75C1D1C5C0 /* GHScenarioOutline.h in Headers */,
+				53E18AA935F29E65EEB1FCEED3035F20 /* GHStep.h in Headers */,
+				CB1E778A18E18EF37E9D17C822795ADB /* GHStepArgument.h in Headers */,
+				AE65E9439900F353395A432B7EA2FEE0 /* GHTableCell.h in Headers */,
+				47F120267BD3D086D42C6384932D82FA /* GHTableRow.h in Headers */,
+				07F56266B4D1A320ED1E5CDA88CD6A96 /* GHTag.h in Headers */,
+				CA893D46DF745C32064E5C3ECF9CF378 /* GHToken.h in Headers */,
+				BE99DDB8959688DB9695DCA7494A39E4 /* GHTokenMatcher.h in Headers */,
+				EA50D4F48AB601157CD85FA165DBC0E6 /* GHTokenScanner.h in Headers */,
+				6F172AE2BA037F0C909A9D947D59AAA8 /* NSArray+Hashes.h in Headers */,
+				0ACFE9FFD55E687B101865B77DDA5AFC /* NSObject+Dictionary.h in Headers */,
+				59D2576C76C3F7665B9831E04268B858 /* NSString+Formatter.h in Headers */,
+				C72D49310B9B454D0A40969A3378E118 /* NSString+Trim.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2195B03EC048348D4B8018802128F9B5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2CB37F07C576E33D0391483C5681C83 /* AutoMate-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA64D04BDC7A174E600DE7801E7EB0CF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82CB0ADEA2C38A3C190F7F2F06215216 /* Pods-UITestingUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF5669083A5079136D7D9DEF0FB04ABD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB6FAEAA0B86AA33C238623362477D71 /* Pods-UITesting-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7A7ADD342388E08281CF372DBBAFF50 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E2E252F6F38B174C3B872BC74FCC45D /* Pods-UITestingTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		25285E198EB2B4C1387E8EEFA3ADB3EB /* Pods-UITestingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99348360FC56EE5B8CE332BC204F6CD4 /* Build configuration list for PBXNativeTarget "Pods-UITestingUITests" */;
+			buildPhases = (
+				31A59B79A85265D98AC842217264D40C /* Sources */,
+				808D4BF66A1FBCD93B8802BDB203389B /* Frameworks */,
+				DA64D04BDC7A174E600DE7801E7EB0CF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9DBAA20E2FCC6F977E89D8A63A5A3E72 /* PBXTargetDependency */,
+				F2CCD93319813A09AB7B660F674CF4E1 /* PBXTargetDependency */,
+				3D356985C556E560B8BA338882650F28 /* PBXTargetDependency */,
+			);
+			name = "Pods-UITestingUITests";
+			productName = "Pods-UITestingUITests";
+			productReference = 1C556E52133AEF75CF307F038ADE7174 /* Pods_UITestingUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2C028BF95EF80ECE7B4FEF61B7D8D511 /* AutoMate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8975DC11AADDDC42B07E94A0229887A /* Build configuration list for PBXNativeTarget "AutoMate" */;
+			buildPhases = (
+				E7305B730DB01F764304CDAC4EE967E4 /* Sources */,
+				12CA5655C5E75BA54CF47C795D5EE54D /* Frameworks */,
+				AFE7ABC6F91DB575DB1AB6468CFEBE3D /* Resources */,
+				2195B03EC048348D4B8018802128F9B5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AutoMate;
+			productName = AutoMate;
+			productReference = 093B4E035F965B6239090FD270E3A5CE /* AutoMate.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2F9219DC3436F4A71BD490ADED213426 /* Cucumberish-GherkinLanguages */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4598CC59AFF3A3C3F087827EBA6ABECF /* Build configuration list for PBXNativeTarget "Cucumberish-GherkinLanguages" */;
+			buildPhases = (
+				5DDDE3EAB0371A4EC4FEB200EF9D5B04 /* Sources */,
+				EA95EF8CCBB3CDDF35082DA165BE7AFF /* Frameworks */,
+				33014FEF743396ED1ADA51AC662B9CC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cucumberish-GherkinLanguages";
+			productName = "Cucumberish-GherkinLanguages";
+			productReference = 2D65E7F48CB2204AC2A30AD2E26B7131 /* GherkinLanguages.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		434CD6A0B0190BEEE2AF6BF1ABF476B9 /* Pods-UITesting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BE9AE9AA77B489AF66EF0056FD9222C /* Build configuration list for PBXNativeTarget "Pods-UITesting" */;
+			buildPhases = (
+				5D498A829138862EF172FB69FAC1B3B0 /* Sources */,
+				DBA84D40F4CDCED010594D5E54C4A3E5 /* Frameworks */,
+				EF5669083A5079136D7D9DEF0FB04ABD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-UITesting";
+			productName = "Pods-UITesting";
+			productReference = 358A5EA23783AC1C2EE947F59A32C821 /* Pods_UITesting.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		68BBA27FABB4188F082A1A9FDD1A9B37 /* Cucumberish */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD058521C7433D2BEC19AFDA890177C9 /* Build configuration list for PBXNativeTarget "Cucumberish" */;
+			buildPhases = (
+				3893C5508BF4CA8B630244C97298C3F3 /* Sources */,
+				9EDAFB3E97770906C03E14DA2C61CC9A /* Frameworks */,
+				3367D84C85E23D075CF249FBF92F0B1F /* Resources */,
+				13973163827786E29E596A9CD0FC7632 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACB34E8D41B25FEFBCFF43E757089E2C /* PBXTargetDependency */,
+			);
+			name = Cucumberish;
+			productName = Cucumberish;
+			productReference = 8902CAB81168B8F78EF11B1730045AA3 /* Cucumberish.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EE08837D9514CB3CB29D005CAC8D3136 /* Pods-UITestingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3535ADF314E4F9BA204591931236123E /* Build configuration list for PBXNativeTarget "Pods-UITestingTests" */;
+			buildPhases = (
+				5F5BDBC3F515CB067573BD9895C3D46D /* Sources */,
+				BFE9BD3F1F4DE5BAD741D19BE98E7686 /* Frameworks */,
+				F7A7ADD342388E08281CF372DBBAFF50 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6BF435418FC371DC3242299984B9C44A /* PBXTargetDependency */,
+			);
+			name = "Pods-UITestingTests";
+			productName = "Pods-UITestingTests";
+			productReference = 07E5813E8C0EAE089BADF0C000B96915 /* Pods_UITestingTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = FE22CAF9FF1DEFC5951518EDF6C659C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C028BF95EF80ECE7B4FEF61B7D8D511 /* AutoMate */,
+				68BBA27FABB4188F082A1A9FDD1A9B37 /* Cucumberish */,
+				2F9219DC3436F4A71BD490ADED213426 /* Cucumberish-GherkinLanguages */,
+				434CD6A0B0190BEEE2AF6BF1ABF476B9 /* Pods-UITesting */,
+				EE08837D9514CB3CB29D005CAC8D3136 /* Pods-UITestingTests */,
+				25285E198EB2B4C1387E8EEFA3ADB3EB /* Pods-UITestingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		33014FEF743396ED1ADA51AC662B9CC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4C1986F220525D7D3C1CD9BEBCF5320 /* gherkin-languages.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3367D84C85E23D075CF249FBF92F0B1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4922FFD41C0E52EF355BD755573A37D /* GherkinLanguages.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFE7ABC6F91DB575DB1AB6468CFEBE3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B5C1816574A38D7415C6494808C406B /* AddressBookAlert.json in Resources */,
+				A81090E41D023A7B4C39C3851775C63C /* BluetoothPeripheralAlert.json in Resources */,
+				9E2CA9DF6AC160D8844D6FEB674A7F1E /* CalendarAlert.json in Resources */,
+				92B53BAE0E17B5C3B1198D3A64F1C5D5 /* CallsAlert.json in Resources */,
+				E9E09C09934CC0AE9E3CA4C4C6267B7C /* CameraAlert.json in Resources */,
+				3623D1F78B778334E02C25A5BEA46488 /* HealthAlertAllow.json in Resources */,
+				EED784B501333F7D2D0EC0D1F1B48839 /* HealthAlertDeny.json in Resources */,
+				97B2597CA2F22D090021E9E2BAEC373A /* HealthAlertOk.json in Resources */,
+				9F60A35418CFEEF45F7DE82BEDE346DF /* HealthAlertTurnOffAll.json in Resources */,
+				829DD9A02FA14A1A25C7D40DBE81F271 /* HealthAlertTurnOnAll.json in Resources */,
+				2216E625363DA44AD0398F7905B17EB6 /* HealthAuthorizationDontAllowAlert.json in Resources */,
+				49055E5C321B3BD38D1B6E8755965186 /* HealthPermissionPage.json in Resources */,
+				CD362B72952CBB7BF0167E4E3674D244 /* LocationAlertAllow.json in Resources */,
+				AB65199D8BAD6028D836A43E432BF583 /* LocationAlertCancel.json in Resources */,
+				47DBDF06BC472317FE694AC6C76A83A5 /* LocationAlertDeny.json in Resources */,
+				7290B7E09C8929CB6F709D80AE9BE5D7 /* LocationAlertOk.json in Resources */,
+				BF7CBA7DD767A603FDC56A1672A1BC92 /* LocationAlwaysAlert.json in Resources */,
+				ACF61460A500A7EBD83CBE5F0C4BA4A8 /* LocationAlwaysAlertAllow.json in Resources */,
+				820298F48AC7B1F67D9454AC5400ABF9 /* LocationAlwaysAlertAllowWhenInUseOnly.json in Resources */,
+				661403E550005ADC149E0E53AE1366AD /* LocationUpgradeToAlwaysAlertAllow.json in Resources */,
+				A871C9655C6B0DAF20B5C97A01705DB1 /* LocationUpgradeWhenInUseAlwaysAlert.json in Resources */,
+				99ECA1F825F4A039D1A5D7C14F4F301E /* LocationWhenInUseAlert.json in Resources */,
+				3037FA75DCAC895EA8BF0CA75AD679F2 /* MediaLibraryAlert.json in Resources */,
+				4D4DCC8C927C8935D1F070F2D30A55F3 /* MicrophoneAlert.json in Resources */,
+				7CDB46C83E2C4C9E636D9612A969B68D /* MotionAlert.json in Resources */,
+				89C2CD09B10F15C7BA422BB250F88288 /* PhotosAddAlert.json in Resources */,
+				BB30E842705973C1404AF8721678390F /* PhotosAlert.json in Resources */,
+				61389DCCE4FF0E1A4597D67004065830 /* RemindersAlert.json in Resources */,
+				2934EBDEC679D6380CE7745A874CD138 /* SiriAlert.json in Resources */,
+				DE556688CB74CE24A4C2EE9077773778 /* SpeechRecognitionAlert.json in Resources */,
+				08D374636E3812774833BB673A2E7E91 /* SystemAlertAllow.json in Resources */,
+				BE5EA31B250EA9AA5CE5BE13101A478B /* SystemAlertDeny.json in Resources */,
+				FB9B7161FF91468B208B51056FF59184 /* WillowAlert.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		31A59B79A85265D98AC842217264D40C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7500F06AE66363DD3E5F287527084778 /* Pods-UITestingUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3893C5508BF4CA8B630244C97298C3F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AED5DB91FEB244F5B7B08A21F83E239 /* CCIArgument.m in Sources */,
+				B278C112EC39F9AEDEBD10053D6C9D2D /* CCIAroundHock.m in Sources */,
+				E6A0EB5FEE5DCE5CF8A855B6C0754112 /* CCIBackground.m in Sources */,
+				C313213BACCD80FEFE7DD07DB217F2D2 /* CCIExample.m in Sources */,
+				05B14A69F04CA33B7CC2328578CBF8E3 /* CCIFeature.m in Sources */,
+				4D318EC16E7CF2BDFC647B93406DA220 /* CCIFeaturesManager.m in Sources */,
+				9DD844F56715A070504308C573650332 /* CCIHock.m in Sources */,
+				59135C64AD6B82050CCA0D7E6F5CA784 /* CCIJSONDumper.m in Sources */,
+				47E9E07B0B86D596AAB4B6F04F5F6BB6 /* CCILocation.m in Sources */,
+				2CCB7656DBF3DDA8673C5B06572C341E /* CCILoggingManager.m in Sources */,
+				51CA036CD47623017D88A7C2310026FE /* CCIScenarioDefinition.m in Sources */,
+				B50452D4024BDACFCEA07723094F9D39 /* CCIStep.m in Sources */,
+				0FCAB8973D3650880AFB250E78B50CE1 /* CCIStepDefinition.m in Sources */,
+				9185478B26DFC74125F60A82C215B55E /* CCIStepsManager.m in Sources */,
+				AF979D7CAB89E29B9FBE46DB1BBACBCC /* Cucumberish-dummy.m in Sources */,
+				53F99E7CDAE53030CCC093C76584A945 /* Cucumberish.m in Sources */,
+				A7B911F6349DB741CFBD39720FE258BB /* GHAstBuilder.m in Sources */,
+				6A8C7F8A1A7C9816DA1314C2C6A70E68 /* GHAstNode.m in Sources */,
+				77457B31528EEB68427B9BF297C3517E /* GHBackground.m in Sources */,
+				17B2F66794549EA5F88F8AF93FC3FAD8 /* GHComment.m in Sources */,
+				C5F677E305A51EAC2D11307419EFA594 /* GHDataTable.m in Sources */,
+				4D17E67C0B7F487F4D87EA8979E97844 /* GHDocString.m in Sources */,
+				39F10B80F08E95EB5C018ECECB61DC02 /* GHExamples.m in Sources */,
+				629F287DBDA7172525E9020E3C80026C /* GHFeature.m in Sources */,
+				0ED3A43D8727BE9A50FB28EAADC23E13 /* GHGherkinDialect.m in Sources */,
+				FE5CD4A4EC68D88F169DA871986E9587 /* GHGherkinDialectProvider.m in Sources */,
+				030164C5BC2FD776517069ACBAC88BE9 /* GHGherkinLanguageConstants.m in Sources */,
+				25DB4E1E353200CBF76C39CA0898A623 /* GHGherkinLanguageSetting.m in Sources */,
+				D953627E585AFC37FCFACA18F8D77EA2 /* GHGherkinLine.m in Sources */,
+				33416F2DEBAE3E52DE019F669028B821 /* GHGherkinLineSpan.m in Sources */,
+				D9C9F186902233F2E4B69363DBC0F0CD /* GHLocation.m in Sources */,
+				3BE7044745BBE2E6FB4B8146CDB4E843 /* GHNode.m in Sources */,
+				0FEC0AD6B640CB8EC23EEACF34053C1E /* GHParser+Extensions.m in Sources */,
+				BCAB64CC95D70C3444CDF5B3B858ECDA /* GHParser.m in Sources */,
+				CF4A3FE71FECE4081CDAC3828620871D /* GHParserException.m in Sources */,
+				39C43F0713C10092870E28A45AAC572E /* GHScenario.m in Sources */,
+				B64821AEA8B0889327D28F3898E91416 /* GHScenarioDefinition.m in Sources */,
+				2B6BA769359517E89964E8DB6C15BC92 /* GHScenarioOutline.m in Sources */,
+				81C9E7412AA95BE1FE67EAE769E75308 /* GHStep.m in Sources */,
+				C7ABF9D23EC379A577942B035F056949 /* GHStepArgument.m in Sources */,
+				DE355B5901D743B1FB81FFDB0C9F25FE /* GHTableCell.m in Sources */,
+				CF5701FBFA699200D21BC26F86C2AA15 /* GHTableRow.m in Sources */,
+				A94E89AE43AEFC9D34970F48E267720A /* GHTag.m in Sources */,
+				558678815A0E0B00CF223F035E4DE6D3 /* GHToken.m in Sources */,
+				8D73726F1BAFF539EB5ECA3D54CACCF4 /* GHTokenMatcher.m in Sources */,
+				4F6AED00C702A375AF06CC451316BCC0 /* GHTokenScanner.m in Sources */,
+				384145E2FBA3EFA3E81E5CC7105D1F86 /* NSArray+Hashes.m in Sources */,
+				B3BA2BBEE613F19E3853283C32B2DF0E /* NSObject+Dictionary.m in Sources */,
+				412E81E2F68F3284BABBD9A856EC3007 /* NSString+Formatter.m in Sources */,
+				A898D7DEEB7194205F5CC98DEB56F157 /* NSString+Trim.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D498A829138862EF172FB69FAC1B3B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				940C7B6120F93E4770540C1F3D3779A1 /* Pods-UITesting-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DDDE3EAB0371A4EC4FEB200EF9D5B04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F5BDBC3F515CB067573BD9895C3D46D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				535E08CA80535D8BB5916B73F253B005 /* Pods-UITestingTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7305B730DB01F764304CDAC4EE967E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E24C2254637DDCFF60F5E8D87948C337 /* AppUITestCase.swift in Sources */,
+				8690F31411E5102DA405087486DCE0B1 /* Array.swift in Sources */,
+				6DB24933513A325FCEDBB24815B15DC5 /* AutoMate-dummy.m in Sources */,
+				71277A8928A18F5CBC6022DBB283CABB /* AutoMateLaunchEnvironmentKeys.swift in Sources */,
+				9B928A6EC0B3885795CB8A996B7DBA21 /* AutoMateLaunchEnvironments.swift in Sources */,
+				F4BF8D545489A283AFA1C6C40A36ECB0 /* BaseAppPage.swift in Sources */,
+				92C68F4BAC6B6F04F52923B4420D3EEA /* Bundle.swift in Sources */,
+				DD1FCEFD63835C2CCB324502120F0FF2 /* CoreGraphics.swift in Sources */,
+				3B96A1F6BDD5963CC29408985D01F1FA /* Dictionary.swift in Sources */,
+				BA9EE70328F3D9C22FCD8B40D8E6364A /* HardwareKeyboard.swift in Sources */,
+				4921862C00BAA17543FCD468FBA73211 /* HealthAlert.swift in Sources */,
+				4FFFB089D31BEB97229E87205424557E /* HealthAlerts.swift in Sources */,
+				511DF7E00A792C1FE09BCD83A3964165 /* HealthPermissionPage.swift in Sources */,
+				0556B1F1EA55DAEAC3379BA1F226F25D /* KeyboardLocator.swift in Sources */,
+				21DEA2C32AB364A1EB24C5097A4F6873 /* LaunchArgumentProtocols.swift in Sources */,
+				6BE8CEC5D60CD26E55321341679929EE /* LaunchArguments.swift in Sources */,
+				76B877FC1F044141B7FABA70DFE75D60 /* LaunchArgumentValue.swift in Sources */,
+				F7DEBD0642A2C737489F4F1F25FD9201 /* LaunchEnvironmentProtocols.swift in Sources */,
+				FB65062F2177B3582311E4C7F084B9AA /* LaunchEnvironments.swift in Sources */,
+				3980F141AD45C391D2F28734A0A6D6FA /* LaunchEnvironmentValue.swift in Sources */,
+				33156E0C04FBD2B95AAA51123756AAD8 /* LaunchOptionProtocol.swift in Sources */,
+				F34A1FC85860DC99A84999BC1EC77323 /* LaunchOptionsSet.swift in Sources */,
+				A8916FB2DA8E005F877F7ABBCB9B543C /* LocationAlert.swift in Sources */,
+				BE35B70D0279175CA39FBCAF838F225A /* LocationAlerts.swift in Sources */,
+				5271AC5A6135B93FCDFF7AD7374781D5 /* Locator.swift in Sources */,
+				D9ADB6672B7AE099E9FAAC5A1DB2F4B1 /* ModalPage.swift in Sources */,
+				A1934C868A65B9E5C6C4F8FF55BD139B /* PushedPage.swift in Sources */,
+				AFA86DFAFB12AF0A44DFB4D3747434E2 /* Sequence.swift in Sources */,
+				3AA56368B911E6C48621601CDCC41BE6 /* ServiceRequestAlerts.swift in Sources */,
+				166642678DB84D81DC5B8EE1C9D087F5 /* SoftwareKeyboard.swift in Sources */,
+				DC9E50C2F960E315B6C5196FD930F1DE /* String.swift in Sources */,
+				729F603D87BB3026515D59D65D23FA14 /* SystemAlert.swift in Sources */,
+				BFBD5522AD0D5DDA4B952867937D8B2E /* SystemCountry.swift in Sources */,
+				FA7D718E6E3768970BECEB328F17650C /* SystemLanguage.swift in Sources */,
+				2A5190C7728A3E4179611873CD8CBE9D /* SystemLaunchArguments.swift in Sources */,
+				8672E1FB3F60103A0B00C0BB26A33708 /* TestLauncher.swift in Sources */,
+				95994FE18AE27C3F5D702A4044E40A00 /* XCTestCase+Identifiable.swift in Sources */,
+				78B631335B50BE13AC9A854D8A77D1E0 /* XCTestCase.swift in Sources */,
+				0B528DE4447813B63F97B3AC1C7E7EF3 /* XCUIApplication.swift in Sources */,
+				DACED772CF3FB7A98D4104D5861A0E8F /* XCUIElement+Swipe.swift in Sources */,
+				03C912092850D845C4CA48283DBD4D68 /* XCUIElement.swift in Sources */,
+				2E037016AC8E9073D61F6603B4F4BF8B /* XCUIElementQuery+Locator.swift in Sources */,
+				63102D5A263DE3EA156080B5469FF769 /* XCUIElementQuery+Predicate.swift in Sources */,
+				6E7B7C7C7FC09FB7A4D430D68BF495D1 /* XCUIElementQuery.swift in Sources */,
+				2E91492868B70EF9A499E1C322F5E01B /* XCUIElementTypeQueryProvider+Any.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3D356985C556E560B8BA338882650F28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-UITesting";
+			target = 434CD6A0B0190BEEE2AF6BF1ABF476B9 /* Pods-UITesting */;
+			targetProxy = A90972C59C4911F1CBC31E9644896958 /* PBXContainerItemProxy */;
+		};
+		6BF435418FC371DC3242299984B9C44A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-UITesting";
+			target = 434CD6A0B0190BEEE2AF6BF1ABF476B9 /* Pods-UITesting */;
+			targetProxy = D1EC45526C0BF1F6E8517FEAEF22BD56 /* PBXContainerItemProxy */;
+		};
+		9DBAA20E2FCC6F977E89D8A63A5A3E72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AutoMate;
+			target = 2C028BF95EF80ECE7B4FEF61B7D8D511 /* AutoMate */;
+			targetProxy = 116DB31E4B32B51334DF0357270B5D83 /* PBXContainerItemProxy */;
+		};
+		ACB34E8D41B25FEFBCFF43E757089E2C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Cucumberish-GherkinLanguages";
+			target = 2F9219DC3436F4A71BD490ADED213426 /* Cucumberish-GherkinLanguages */;
+			targetProxy = 05BD26E8EC9291BAE46B0AAE44F26580 /* PBXContainerItemProxy */;
+		};
+		F2CCD93319813A09AB7B660F674CF4E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Cucumberish;
+			target = 68BBA27FABB4188F082A1A9FDD1A9B37 /* Cucumberish */;
+			targetProxy = 488E5BA600EBDC03ED61696EB4730315 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1FE473E2C9EA0CA2C98B4BF69B4FC1F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C1FEE2A35AF92D11FBCB60D650D62D6 /* Pods-UITestingTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UITestingTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UITestingTests/Pods-UITestingTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		266B300B8C774A98B7739219FE4FBCE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE1DCA8F16069D194C8DFE152872783D /* Pods-UITestingTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UITestingTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UITestingTests/Pods-UITestingTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5841602CDD3E0DBA24B60EF1E19E6602 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C76A5765B3689634366AD98292960D1 /* Cucumberish.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Cucumberish/Cucumberish-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Cucumberish/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Cucumberish/Cucumberish.modulemap";
+				PRODUCT_MODULE_NAME = Cucumberish;
+				PRODUCT_NAME = Cucumberish;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5DC0083F57E9AB706B46C5B5D73B38D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		78D46F4F270B4C5B78FACBFF91B92B6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAD2FF1C50E46B14E2713E1BF30A230F /* AutoMate.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AutoMate/AutoMate-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AutoMate/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/AutoMate/AutoMate.modulemap";
+				PRODUCT_MODULE_NAME = AutoMate;
+				PRODUCT_NAME = AutoMate;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7CE668496158DFBD25A5FEF21D9DC97C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76642A9EAD1ECF3D2036B70D4780B489 /* Pods-UITestingUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UITestingUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UITestingUITests/Pods-UITestingUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EA4F3B1E8FD45661A5A61134FFFEBDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAD2FF1C50E46B14E2713E1BF30A230F /* AutoMate.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AutoMate/AutoMate-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AutoMate/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/AutoMate/AutoMate.modulemap";
+				PRODUCT_MODULE_NAME = AutoMate;
+				PRODUCT_NAME = AutoMate;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8702D299E6D7F2B00ACADFF56D397B46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C76A5765B3689634366AD98292960D1 /* Cucumberish.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Cucumberish/Cucumberish-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Cucumberish/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Cucumberish/Cucumberish.modulemap";
+				PRODUCT_MODULE_NAME = Cucumberish;
+				PRODUCT_NAME = Cucumberish;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8D3D7C1BE4908EEAD242F8EB5505CF87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C76A5765B3689634366AD98292960D1 /* Cucumberish.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Cucumberish";
+				INFOPLIST_FILE = "Target Support Files/Cucumberish/ResourceBundle-GherkinLanguages-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = GherkinLanguages;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		909ED5FEA9B70B10C5CA37DF1D225490 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C76A5765B3689634366AD98292960D1 /* Cucumberish.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Cucumberish";
+				INFOPLIST_FILE = "Target Support Files/Cucumberish/ResourceBundle-GherkinLanguages-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = GherkinLanguages;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		A309238FCA860858A08F7B883B235243 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25406A1070D35F19D459E0D535D3D423 /* Pods-UITestingUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UITestingUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UITestingUITests/Pods-UITestingUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AEEA80476F98EB645C4DD53EB2BB6D88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		E3390942C55AD9BD9E95FB2235FAA119 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD4887231D99E8B45255FFFE54B02D31 /* Pods-UITesting.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UITesting/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UITesting/Pods-UITesting.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E39AE8B812D1A7B129720EB6D4C2012B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14819D4445890B76C13B9C42FC3C592B /* Pods-UITesting.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UITesting/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UITesting/Pods-UITesting.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DC0083F57E9AB706B46C5B5D73B38D8 /* Debug */,
+				AEEA80476F98EB645C4DD53EB2BB6D88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3535ADF314E4F9BA204591931236123E /* Build configuration list for PBXNativeTarget "Pods-UITestingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FE473E2C9EA0CA2C98B4BF69B4FC1F0 /* Debug */,
+				266B300B8C774A98B7739219FE4FBCE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4598CC59AFF3A3C3F087827EBA6ABECF /* Build configuration list for PBXNativeTarget "Cucumberish-GherkinLanguages" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				909ED5FEA9B70B10C5CA37DF1D225490 /* Debug */,
+				8D3D7C1BE4908EEAD242F8EB5505CF87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BE9AE9AA77B489AF66EF0056FD9222C /* Build configuration list for PBXNativeTarget "Pods-UITesting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3390942C55AD9BD9E95FB2235FAA119 /* Debug */,
+				E39AE8B812D1A7B129720EB6D4C2012B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99348360FC56EE5B8CE332BC204F6CD4 /* Build configuration list for PBXNativeTarget "Pods-UITestingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A309238FCA860858A08F7B883B235243 /* Debug */,
+				7CE668496158DFBD25A5FEF21D9DC97C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8975DC11AADDDC42B07E94A0229887A /* Build configuration list for PBXNativeTarget "AutoMate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78D46F4F270B4C5B78FACBFF91B92B6E /* Debug */,
+				7EA4F3B1E8FD45661A5A61134FFFEBDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD058521C7433D2BEC19AFDA890177C9 /* Build configuration list for PBXNativeTarget "Cucumberish" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8702D299E6D7F2B00ACADFF56D397B46 /* Debug */,
+				5841602CDD3E0DBA24B60EF1E19E6602 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
